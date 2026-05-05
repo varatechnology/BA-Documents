@@ -1,0 +1,34 @@
+
+Blockchain IP: 10.136.218.122
+Restserver IP: 10.136.218.121
+
+
+0. Update the setup.sh for production restserver
+1. Pull HLF :  branch revampmaster
+2. Upgrade uacc only
+3. Turn off the batch program
+4. Restart the one of the rest server : latest build
+5. Cat bulk_bayer_csv.csv file
+
+if channel creation failed:
+1. Delete folders in /var/hyperledger
+
+Register the hash into the blockchain
+1. peer chaincode invoke -o orderer.tatasteel.com:7050 --tls true --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/tatasteel.com/orderers/orderer.tatasteel.com/msp/tlscacerts/tlsca.tatasteel.com-cert.pem -C tata -n cacc --peerAddresses peer0.org1.tatasteel.com:7051 --tlsRootCertFiles /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.tatasteel.com/peers/peer0.org1.tatasteel.com/tls/ca.crt -c '{"Args":["CreateHash", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]}'
+
+
+https://tubcorpprd.tatasteel.co.in:9000/tubenxt
+4.A. Set 2 new Env Variable WEB_LINK, DUMP_DIR
+4. Get dump of rms => https://tubcorpprd.tatasteel.co.in:9001/dump/rms
+5. Get dump of dist => https://tubcorpprd.tatasteel.co.in:9001/dump/dist
+6. Get dump of users => https://tubcorpprd.tatasteel.co.in:9001/dump/users
+7. Get dump of regions_old => https://tubcorpprd.tatasteel.co.in:9001/dump/regions/old
+
+8. run dockerAutomationCLi.sh ALL
+9. Get dump of regions_new => https://tubcorpprd.tatasteel.co.in:9001/dump/regions/new
+10. Create dist => https://tubcorpprd.tatasteel.co.in:9001/dump/create/dist
+11. Create users => https://tubcorpprd.tatasteel.co.in:9001/dump/create/users
+
+12. Restart all the servers
+13. It is ready to for the users.
+

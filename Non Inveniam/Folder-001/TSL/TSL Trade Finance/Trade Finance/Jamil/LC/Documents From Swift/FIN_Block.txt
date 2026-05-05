@@ -1,0 +1,47 @@
+Block 2 will have Sender's LT on Output message (Received message)  and Receiver's LT on  Input message (Sending message).
+Basic Header (Block 1) always has your LT in Basic Header (being either Sender LT for the Input messages or Receiver 
+LT for the Output messages).
+
+
+
+Basic Header:
+{F01ABCDBEBBAXXX0001000001}
+F=Application ID
+01=Service Identifier
+TSTEINBI     A    XXX= LT Address
+0000= Session Number
+000000= Input/ Output Sequence Number
+
+ 
+
+Output Header (Block 2):
+
+
+{2:O7981030100105EFGHBEBBAXXX00010000011001051030N}
+O=Output
+798= Message type
+1030=Input time
+100105= Input Date
+EFGHBEBBAXXX=Sender’s LT
+0001= Sender Session number
+000001=Sequence number
+100105= Output date
+1030=Output Time
+U= Message Priority
+
+ 
+
+Input Header (Block 2):
+
+
+{2:I798IJKLBEBBXXXXU03003}
+I=Input
+798=Message type
+IJKLBEBBXXXX-Receiver’s address
+U=Message Priority
+03= Message Priority
+003 =Obsolescence Period.
+
+TSTEINB0
+TSTEINBI
+

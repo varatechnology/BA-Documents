@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="mgLLic0f-sHkCMIHdQRT">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;verticalAlign=top;" value="&lt;b&gt;Inveniam L2 - Inveniam Chain&lt;/b&gt;" vertex="1">
+          <mxGeometry height="340" width="660" x="-10" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=center;verticalAlign=top;" value="&lt;b&gt;Inveniam L2 Architecure&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="570" x="40" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-3" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="umg2lsHJZ5c2LKmZp1gF-2" value="IBC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-8" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="umg2lsHJZ5c2LKmZp1gF-4" value="&amp;nbsp;Channel&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CosmWasm VM" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-6" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="umg2lsHJZ5c2LKmZp1gF-5" value="To Communicate&lt;br&gt;Custom Modules">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ethereum VM" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-23" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="umg2lsHJZ5c2LKmZp1gF-22" value="Query External Data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Application Specific Modules" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-7" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="umg2lsHJZ5c2LKmZp1gF-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Channel&amp;nbsp;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PreCompiled Application Specific Contract to Interact with Application Specic Modules" vertex="1">
+          <mxGeometry height="60" width="220" x="370" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-10" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;" target="umg2lsHJZ5c2LKmZp1gF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Invenima Token&lt;br&gt;(ERC20 Token)" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-12" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;" target="umg2lsHJZ5c2LKmZp1gF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Other Solidity Contracts" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-14" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="1. It is used to expose interfaces to interact with Application Specific Modules.&lt;br&gt;2. It is not a Solidity Contract, but implemented natively in Go Codebase.&lt;div&gt;3.&amp;nbsp;An EVM smart contract, written in Solidity, makes a standard external contract call to the precompile&#39;s fixed address.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="220" x="651" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-29" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="1. We may need to develop AI agent–specific contracts to ensure the provenance of their reality claims.&lt;br&gt;&lt;div&gt;2. Event anchoring to the inveniam chain&lt;/div&gt;&lt;div&gt;3. How the validators are verifying the data obtained from off-chain data&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="430" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="75" width="200" x="-280" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-34" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="umg2lsHJZ5c2LKmZp1gF-2" value="Submitted To">
+          <mxGeometry relative="1" x="-0.296" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="-230" y="331" />
+              <mxPoint x="-230" y="210" />
+              <mxPoint x="450" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EVM&lt;br&gt;Contract" vertex="1">
+          <mxGeometry height="40" width="70" x="-265" y="330.5" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-35" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;fillColor=#1ba1e2;strokeColor=#006EAF;" target="umg2lsHJZ5c2LKmZp1gF-1" value="Submitted To">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CosmWasm&lt;br&gt;Contract" vertex="1">
+          <mxGeometry height="40" width="80" x="-170" y="330.5" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-33" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="umg2lsHJZ5c2LKmZp1gF-30" value="Interact with&lt;br&gt;Inveniam Chain">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-36" connectable="0" parent="1" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="130" width="580" x="-150" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-21" parent="umg2lsHJZ5c2LKmZp1gF-36" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="130" width="580" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-17" parent="umg2lsHJZ5c2LKmZp1gF-36" style="rounded=0;whiteSpace=wrap;html=1;" value="AI Agents" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-18" parent="umg2lsHJZ5c2LKmZp1gF-36" style="rounded=0;whiteSpace=wrap;html=1;" value="Private Asset Data" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-19" parent="umg2lsHJZ5c2LKmZp1gF-36" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Artifacts" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-20" parent="umg2lsHJZ5c2LKmZp1gF-36" style="rounded=0;whiteSpace=wrap;html=1;" value="Metachain" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-22" parent="umg2lsHJZ5c2LKmZp1gF-36" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Inveniam Off-Chain Eco-System&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="190" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Other CosmWasm&lt;br&gt;Contract" vertex="1">
+          <mxGeometry height="60" width="140" x="70" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-39" edge="1" parent="1" source="umg2lsHJZ5c2LKmZp1gF-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;" target="umg2lsHJZ5c2LKmZp1gF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-40" parent="1" style="text;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Bridging Management: How should we handle asset and state synchronization between L1 and L2? Will Mantra provide a native bridge, or should we consider third-party solutions?&#xa;&#xa;=&gt; It should be discussed with Mantra Team. As per our assumption, the private asset data stays off-chain and can be accessed through Inveniam Secure APIs. So, it needs to be discussed with Mantra Team. After that, further planning will be effective. &#xa;&#xa;In case of transactions syncronization, Mantra L1 uses hyperlane to facilitate fast cross-chain transactions across the largest L1 networks via Hyperlane.&#xa;https://docs.mantrachain.io/introduction/why-build-on-mantra-chain" vertex="1">
+          <mxGeometry height="170" width="560" x="-1420" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-41" parent="1" style="text;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Integration Path: If the L2 is EVM-compatible, integration can likely reuse our existing pipelines. If it’s based on CosmWasm, we’ll need to assess the impact — new infrastructure for contract deployment, transactions, and possibly new SDKs or APIs.&#xa;&#xa;=&gt; L2 is multi-vm chain and it is compatible with CosmWasmVM and EVM. So, we can choose any of the path. &#xa;Note: IBC between CosmWasm and EVM should be established for L2.&#xa;=&gt; As L2 will interacting with AI-Agents and private asset data, we need to ensure the block confrimity has been done.&#xa;=&gt; https://mantra.gitbook.io/inveniam" vertex="1">
+          <mxGeometry height="170" width="560" x="-1420" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-42" parent="1" style="text;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Performance &amp; Scalability: What performance or fee advantages should we expect from L2?&#xa;=&gt; TBD&#xa;=&gt; Will there be any contracts or channels to interact with Inveniam Off-Chain Eco-System ?&#xa;            - If exisits, then is one-directional or bi-directional ?&#xa;            - If bi-directional, can we send write requests ? and what will be fees applicable ?&#xa;&#xa;" vertex="1">
+          <mxGeometry height="170" width="560" x="-1419" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-43" parent="1" style="text;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Tooling &amp; Dev Environment: What SDKs, APIs, or dev tools are available for CosmWasm (if required)?&#xa;=&gt; Yes, Dev tools and SDKs are available.&#xa;=&gt; But, it is better to develop few new contracts to facilicate a better and future-ready interactions." vertex="1">
+          <mxGeometry height="170" width="560" x="-1420" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="umg2lsHJZ5c2LKmZp1gF-44" parent="1" style="text;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Risk &amp; Readiness: What is the maturity level of L2 environments on Mantra? What would be the minimal integration test plan to validate core interactions (deployment, transaction, read/write)?&#xa;=&gt; TBD. But following points need to be discussed with Mantra team&#xa;&#xa;1. How the interaction with AI-Agents and Private Asset Data will be utilized in Mantra L2 Chain ?&#xa;2. How the validators will validate a block with needs off-chain interaction with Inveniam&#xa;3. What is the definition of AI-Agents&#xa;- Is it refering the Invenam AI Agents and their MCPs ?&#xa;- Or, will L2 have another AI-Agent MCP which can be used to make transaction in L2 ?" vertex="1">
+          <mxGeometry height="170" width="560" x="-1420" y="711" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

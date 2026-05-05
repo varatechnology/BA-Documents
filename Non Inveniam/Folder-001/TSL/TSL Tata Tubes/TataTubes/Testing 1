@@ -1,0 +1,30 @@
+data
+====
+
+1. duplicate combination (invoice + mat + batch + finlot) should not be accepted in Blockchain 	=> Ok [last day]
+2. If invoice has multiple line items with different mat code, should work. 				=> Ok {last day}
+3. Qty checking at [Mat(size),finlot level,challan] level  						=> Ok
+4. Same batch for a lotNo cant be accepted for material + batchNo					=>  
+
+TC
+============
+4. TC Data 				=> 	OK
+4. seperate TC for every mat		=>
+5. Separate TC for every challan 	=> 	Ok
+
+
+Return
+======
+6. raise return 	=> 	Ok
+7. return accept 	=> 	Ok
+8. return reject 	=> 	Ok
+
+
+Material Description
+======================================
+1. Check invoice data entry uniqueness => (Material No + Challan No + Batch + Lot) => 
+
+===================================================================================
+
+
+

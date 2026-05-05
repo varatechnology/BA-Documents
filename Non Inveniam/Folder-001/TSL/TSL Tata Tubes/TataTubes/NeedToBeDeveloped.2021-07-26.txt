@@ -1,0 +1,11 @@
+1. Show HEAT_NO on Front End => (CUST_NO)
+2. Search user email as well as phone number.
+3. User er phone number change a problem
+4. SAP customer api te existing phone number and email id check korate hobe
+5. SAP_Customer/SAP_TC er response a id add korte hobe
+6. Verify email and Verify phone er module er upgradation lagbe
+7. Front end a tor inventory te InvoiceNo and Invoice Date show koriye dibo, tate asubida ki a6e!
+8. Uporer change er jonyo egulo TxnChainByLotNo ghete jete pare. Eta dekhte hobe. R dashboard dekhte hobe.
+9. Pagination add korte hobe order er page a.
+10. RelationShip manager er email o order request a kono error di6e na.
+11. router.GET("/getORFFields", handlers.GetORFFields) -> tacc GetORFFieldsByChallanNo

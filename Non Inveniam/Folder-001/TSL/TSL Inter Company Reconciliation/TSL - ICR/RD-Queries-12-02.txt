@@ -1,0 +1,452 @@
+TSL PAYABLE
+_____________________
+
+
+
+
+
+HOW TO CREATE THE BALANCES TAB ??????????????
+
+Debot bals of Form2 +- Credit bals of Fors = Net Bals which should be matched.
+
+
+
+
+(1)
+SA - accounting provsision, how provision is adjusted . (entire flow description? ) How afects invoice directly/indirectly
+
+Example :- 
+
+51760823 - RE      23/07/2010	18/03/2020  18/03/2020
+55635816 - SA      23-07-2010	01-03-2020  28-03-2020
+why date so? 
+Note : both amount same. cancelling each other.
+
+80047380	RE	20/07/2010	18/03/2020        18-03-2020
+51760890	SA	20-07-2010	01-03-2020        28-03-2020
+why date so? 
+Note : both amount same. cancelling each other.
+
+ANSWER
+SA permanent entry . passed in books . nullify all tXN for which rev hasnt happend thu the doc type which shouldve happnede eg RL rev for RE
+for which no soln is there. SA is there. 
+
+simialr is SB. 
+
+for all SA doc there may be 2 types of TXN in the Ref fields either, SAP doc no of RE side or INv no. (present in Ref field)
+
+
+
+(2)
+SB - WHAT IS LOGIC?
+Only 1 doc in FY20 data which is cancelling KG amount entirely. Are we to consider it as reversal of Debit note (KG) ?
+
+Ref number of SB and KG mathcing in the only example we have
+
+
+
+
+(3)  Clearing doc's basis things can be cleared. But since all of this is Self side matching / clearing do we have t show it in INTER company reconcoliation
+
+confirmation required from business
+
+
+(4)   KR - not a single instance in FY20 TSL sde data. PLEASE explain.
+
+manual entry - TDS on Provisions Manual
+ to be asked to business. WHy create this??? what is the signficance of invS/O ref here???
+
+
+
+
+(5)  KG - what is the business impact of KG on other side. 
+KG is cleared with AB in same side. AMount in Local currency matches. GST Amount deos not match
+
+passs entries for various types of penalties and deductions . Problme - in other book . How to search that? what is the key to searched that?
+How to iD the 
+
+
+
+
+
+(6)  92721343 - AB document has two instances. Amount in 1 is other amount in negative in other.
+Then how come it is getting included in the CLearing doc field of RE and RL which are actually cancelling each other out on basis of Reference.
+(Same for cases where the Sum of AB for a cllaering doc number is 0.0)
+
+
+(7) CONCEPT OF CLEARING DOCUMENT. HOW IT GETS CLEARED? IF PAY AND INV MATCH. EVEN THEN AB IS USED TO CLER OPEN INVOICE
+
+
+
+
+
+*(8) RE amount and RA deductible is cleared by Payment amount KZ. SAP DOc number of KZ is populating all clearing doc numbers of mentionked line item types
+45207813 clearing doc. why order of doccheckdate is so???
+
+
+*(9) 45259059 -clearing doc number - order of doccheckdate is ambiguous. Why KZ is clearing an AB even tho AB is the generic clearing doc.
+(Note : this AB is a interest for 19-20 which has to be redeemed? what is meaning of this AB) 
+ 
+
+
+
+
+
+
+
+CLEARING --- in sap diff *****GL****** some open line items and few which are not open. 
+ only certain OPen - remains open till knocked off (AB doc only used in this case)
+ others are NOT open - 
+
+
+
+
+In REFERENCE NUMBER is either
+i) invoice number
+ii) purchase order number
+iii) sales order number
+iv) owrk order number 
+etcetera
+
+
+
+
+
+
+
+WE
+
+receipt of Material - Goods Receipt - system is passing WE
+ack of good receipt for making pay - Invoice Verification - through RE document 
+
+
+
+
+
+inv mathc-paymatch-intrabook
+
+WE -grn made. incoivce verf not done.
+then comes ree with inv verif
+
+
+
+
+quality inspcn 
+then    grn    - diebiting inventory and crediting GRIR liability acc (provn liability acc)
+
+after 1 or 2 fays. GRIR to be certified, via inv verif
+while doing inv verif, debit griri accc and credit vendor acc (tbsl acc in this case)
+this is affected thogh RE dc type
+this is seq when 1st or middle of month 
+
+
+
+II
+when mat recieved on 31st , GRIR do, not able to inv verif. (dictated by process. process overhead)
+WE to have inv num of resp seller. 
+
+RV = WE(for which RE not done) + RE for entire motnh +- RL 
+
+
+WE taxes nt reflected here properly
+why?????? --- coz, hen txn done for taxes, liabality to make pay considered. only done after verifivation.
+
+
+WE doc type---------
+
+inventory +
+grir -
+when re done, 
+grir +
+vendor acc -
+
+in LIVE, 
+
+dataste of grir liabilty acc to be pulled, with all WE and RE with opening balances.
+RE WE to be nulfied wit Ref
+those cases, those WEs, which ahevnt been nullified, will be consedered here in fomula.
+
+
+mat in transit - equivalient RV - WE
+rv for which the coreesponind WE has been converted to RE is amount whihc is payable , n TSL boks 
+
+
+
+in bg 2 data pull, one for GRIR, one for RV
+first only RV WE matching 
+
+
+
+DNOT in branchalloc would mean debbit note
+
+
+
+KZ ref - rtgs num for which the pay has been afftcted by HDFC bank to TBSL  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exceptional case ::::::
+45024071 doc num 
+
+TSL has made payment fir 2 RE docs 51038398,51038775 with resp REfs CI0001102734, CI0001102733
+owever, it is accounted for in TBSL books under DA doc type instead of DZ doc type.
+So, How to built such logic?
+
+Option 1 - run logic thru DA type along with DZ and in DA find the ban reference in ofsetting account name and then match with value.
+Option 2 - keep it simple by matching only KZ vs DZ and anything payment txn happeing through DA should be kept in manual matching.
+
+
+
+for cases where sys already matched flag it. match only unflagged items.
+
+
+
+SOA to be included in our display view
+
+
+QUESTION ------------------------  for partial matching csaes
+
+
+(1)  in cases where reduced values is accounted for in TSL books against RV of other side and payment is alos made wrt that RE then, 
+WHAT is the accountinig entry happening in TBSL/TSL books for the differential amoujnt.????
+eg - Ref : CI1904105391  we donot find any entry of differential aountin either books as res of which inv matching has not happened
+
+Option1 - can such be kept as partial matching and left for manual matching??????????
+Option 2 - please suggest a sooln for that case.
+
+
+
+(2)  
+
+
+
+
+CI1904105791 - this ref number to be reviewed for partial matching casses. no RL acconted for.
+
+
+
+
+
+fir SI1904100050 RE document, those RE items with ZKPO branch/alloc field value is not there in TSL side ledger. WHY?????!!!!??
+3 peresent . should be 6.
+
+
+
+
+
+
+CI1902102911 - RV - 
+ 
+
+
+
+
+
+fpr provision we ave to createe  system wherein we can successfully get the data
+
+
+
+as er obj of POC, pain point sof existing system which have to be taken care by BC process.
+
+
+
+
+
+-105868904.71 re total unmatch
+106158920.88
+
+
+as on opening day, 31/03/19 , 
+i) GRN done but inv verfi not yet done 
+
+or ii) opening bal of all RV for which all the payment has not yet been received
+
+
+
+
+*******************DocChkDate for TSL side items is the date on which the RP has raised the corresponding RV. 
+
+
+if a Txn is unmatched no matching date should appear for it in portal view.
+
+
+
+
+
+
+
+
+
+
+
+The match ID to be included in each line item
+
+
+
+
+as of 3th sept 19. bals and txns till 3oth sep.
+cut-off as of period ends
+
+
+
+
+for a particular period . for eg 31st mar 20, on 6th of April 1st reco item has been seen. 2nd reco item on 15th on April. Can the BT see the Reco balances as on 6th and 15th separeelty?
+
+
+Txn bals, Reco all to be seen for diff periods.
+
+
+
+
+**) DEV Server point to be brought up RND sir
+
+
+
+
+separate QTY data to be pulled from SAP - to be shown in a separete dashboard
+
+
+3 types of reporting txn reco, SOA, Form 2
+
+
+customized 
+
+we undersatnd tht there are two touchpoints we are asking for. IT - manual 
+for IT all comes from SAp 
+
+
+give us samples of data manual 
+
+
+any inv diff coming from RV vs RE is betw 50 to >  200 then it is inv diff
+
+
+
+
+
+those RV which hasnt matched.
+
+1)RV has corresponding WE in TSL books - GRIR entry in boks of TSL
+2)in TSL books WE has a corresponding RE - iv entry in TSL books
+3) in TSl books RE has a corresponding KZ - payment enry in tsl books
+
+if RV - all WE has a corresponding RE matched - RV = RE  (invoice matched)
+if RV - has only WE and no RE then it GRIR - goods received but invoice verifn not done = RV matched
+if RV has no WE then it means goods/servces NOT yet received = RV = Material in TRansit 
+
+
+GOODS - Gl pertainng to the salse sof Goods(all except services) to be taken for identifying MIT. 
+
+
+for servcies received
+i) for servcies received, but serevice entry not done = Provision is done in TSL books
+
+
+for segragation of goods and for segration of services
+
+services - identify the corresponding GL in the RP side GLnumber (FInal offsetting acc)
+then, match corresponding REs for that respective RVs created against this GL
+remaining RVs are open RVs for which provision is required.
+in order to match provisions which is open take the dump of provision made in TSL saide based on the TRading Partner number of open PE and PR
+then find the difference between point 3 qnd Point 4 
+
+
+  RV   WE tax not be there WE
+
+
+
+No implication of Cutoff date on system. oNly do basis of Docchk date and posting date.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System will show seamleslsy for period with respect to Form2-SOA-TxnReco
+
+comparitive only there for SOA feature
+
+
+QUESTION ::::::::::::::
+
+For Txn reco, RV and WE have separate DocChkDate - whch is required for identifying the matching items(since Reference umber inconsistency is there) . How to match these scenarios??(required for Inv Diff in GRIR reason in Txn recon) 
+
+
+
+
+
+
+
+
+
+TRANSACTION -----> 
+RE +- RL 
+For all those cases where GRN is done and IV is also done. Represented by RE / +-RL / SA /SB
+
+For all cases GRIR done but IV not done . Represted by WE only 
+
+For all cases particularly services for which provision are taken. Represented by PE/PR
+
+
+
+in order to get the open GRIR we have to pull all the WE and RE doc of the Vendor/Customer num - T018 and T040 or any Vendor which is attached to it wrt same PAN number.
+
+
+
+
+
+For now, the Form2 aggreegated values will be treated a single category. ater on, we will change it based the category(Goods pruchase/sake and Render/Receiving of services) of TXn.
+
+
+
+
+Opening balances for TSL ---->  ENter one time.
+
+
+
+
+all dates to be displayed in portal as DD/MM/YYYY only.
+
+
+SOA feature to have a downloadeable option for the compasiron view of 2 different quarter detail
+
+
+GRIR data coming from table . Wether all GRIR retlated items like WE + RE + RL everythig wil come from GRIR table or NOT ??????
+If not then from where??
+-- Because the pedning GRIR is the net-off balance between WE, RE and RL for a oparticualr period of time. (Running balance)
+
+
+
+
+
+
+
+WE in our matching logc txn reco
+
+chage the matchung engine logic to cosider SOA amount in ALL cases. 
+
+
+========================================================================================================
+Txn Reco (Additional Logic)
+MIT - Just exclude reference starting with CN.
+ShortProv - Just exclude reference starting with CN.
+

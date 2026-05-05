@@ -1,0 +1,36 @@
+As per so far Understanding:
+1. The data coming from SAP, is directly referenced to a ditributor.
+2. If the distributor is not exists in the system, the data pushed to blockchain causes error "Distributor not found."
+3. Manufacturer have an option to search the invoiceNo/ChallanNo.
+
+As per PDF:
+1. The application included 5 types of users 
+	1.a. Manufacturer
+	1.b. B2B Customer ------ (i)
+	1.c. Distributor ------- (i)
+	1.d. Dealer ------------ (ii)
+	1.e. End-Customer ------ (ii)
+2. SAP pushes distributor inventory data.
+3. Distributor can generate ORF for Dealer/End-Customer only.
+4. Dealer/End-customer can generate for another Dealer/End-customer.
+5. Inventory of seller updates when ORF is received.
+6. Inventory of buyer updates when ORF is confirmed.
+7. TC is generated once it is requested by buyer or on behalf of buyer (verified by OTP) by seller.
+8. Manufacturer can generate ORF for B2B customer.
+9. Manufacturer can generate TC by requesting TC on behalf of B2B customer. (verified by OTP)
+
+Current Interface:
+1. Manufacturer searches challanNo.
+2. It receives the data of LotNo and Qty.
+3. There is a generate button which creates an order. (Assumption as I have not seen it)
+4. Manufacturer can see that ORF and request TC. (OTP Confirmation)
+
+Questions:
+1. Everything is done assuming Distributor's inventory data is coming from SAP. (Invoice/Challan)
+	1.a. 	Manufacturer has no concept of inventory, but they can generate ORF. So, the ultimate beneficiary of that ORF is the buyer 		mentioned during the process. Is it?
+	1.b. 	Manufacturer searches a challan to genrate an ORF. if challan data is already credited to distributor, then what will be the 			logic for inventory management of Distributor and Manufacturer?
+	1.c. 	If B2B customer is different from distributor, then 
+		i)	What is this B2B customer?
+		ii) 	Are B2B customers onboarded to our platform like distributor?
+		iii) 	How B2B customers are different than distributor?
+		  	

@@ -1,0 +1,277 @@
+Entity_Name,code,acc,desc,txnType,nature,toReport
+Tata Steel Limited,1000,307032,TDS Professional,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,307035,TDS Rent,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,1013004,CWIP - TGS TRANSFER,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,1060004,Capital Advance - Services - Domestic,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1060006,Capital Advance Supply (Jsr) - Domestic,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1060007,Capital Advance Supply (Jsr) - Imports,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1196001,Raw Materials In Transit Foreign,Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,1196013,Gr/Ir - Captive Sources for Raw Matl,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,1221001,SUNDRY DEBTORS  STEEL,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221005,SUNDRY DEBTORS  STEEL-Rct after discounting,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221009,S/DRS FOR OTHER SERVICES,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221010,S/DRS ADJUSTMENT ACCOUNT,Provisions (Income),Receivable,Yes
+Tata Steel Limited,1000,1221025,SUNDRY DEBTORS  SHARED SERVICES,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221027,Scrap Debtors A/C,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221028,SUNDRY DEBTORS  TOWN DEBTORS,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221029,Debtors for Slag & Coal Tar,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221033,SUNDRY DEBTORS DISCOUNTING  - FLDG,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221036,SUNDRY DEBTORS - TOWN (RELATED PARTY),Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1222024,DEBTORS FOR RAW MATERIALS - NOAMUNDI,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1222045,DEBTORS FOR RAW MATERIALS - FAP,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1222065,Debtors - Sale Of By Products - West Bokaro,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1222087,Debtors For  Services Provided Abroad,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1222090,Debtors - Service & Solutions,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1222091,DEBTORS FOR SALE OF SERVICES - TKM,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1224001,Sundry Debtors - Bearings,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1250001,DEPOSIT WITH  PUBLIC BODIES,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1250141,DEPOSITS WITH OTHER THAN PUB BOD - JSR,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1250291,IGST Stock Transfer - Internal Vendor,Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,1250303,TDS deducted on CGST by the deductors,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1250304,TDS deducted on SGST by the deductors,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1250305,TDS deducted on IGST by the deductors,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1252001,OTHER ADVANCE,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1252006,INTERCORPORATE CALL / STD WITH COMPANIES,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1252007,SHAREHOLDERS' LOAN TO ASSOCIATE COMPANI,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1252008,Intercorporate Deposits-Non Current,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1252028,ADVANCES-TDS/TCS (PENDING CERTIFICATES),Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1253002,Advance To Local Suppliers For Services (Sap),Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1253003,Revenue Advance Indegenious (Sap),Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1253005,Advance To ISWP,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1253006,Advance to JUSCO,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1253008,Advance To Local Suppliers Rev - Jamshedpur (GL),Advance from customers,Payable,Yes
+Tata Steel Limited,1000,1254001,ADVANCE TO SUBSIDIARIES,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1256003,APP. MNY. RTS/PUB/ISSUE - SHARES/ DEBENT,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1256004,ADJUSTMENTS [ DEBITS],HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1256025,ICD with Subsidiary Companies,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1256028,SHAREHOLDERS LOAN TO TATA KZN,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1256030,Interest Income Receivable,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1256031,SHAREHOLDERS LOAN TO TATASTEEL HOLDINGS,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1256034,Other Receivables-Current Other FA,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1257007,TDS. -RENT RECEIVED,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257012,TDS-Income recd F Year 2005-06,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257051,TDS received for FY 2005-06,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257055,TDS/TCS Receivable F.Y.2009-10,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257056,TDS/TCS Receivable F.Y.2010-11,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257059,TDS/TCS F.Y.2011-12,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257064,TDS/TCS Receivable F.Y.2006-07,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257065,TDS/TCS Receivable F.Y.2007-08,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257066,TDS/TCS Receivable F.Y.2008-09,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257079,TDS/TCS Receivable F.Y.2012-13,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257083,TDS/TCS Receivable F.Y.2013-14,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257086,TDS/TCS Receivable F.Y.2014-15,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257088,TDS F.Y.2015-16,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257091,TDS Receivable F.Y. 2016-17,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257093,TDS/TCS Receivable F.Y. 2017-18,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1257095,TDS/TCS Receivable F.Y. 2018-19,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,2200186,CMLTD-Finance Lease Obligations,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2403301,Liab for TDS - ST Works Contract Tax,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404050,Tds On Salary -Tubes,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404330,Liability For Tds - Jsr Sec 194B,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404331,Liability For Tds - Jsr Sec 194C,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404341,Liability For Tds - Jsr Sec 195,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404351,Liability For Tds - Jsr Sec 194I,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404352,Liability For Tds - Jsr Sec 194IA,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404361,Liability For Tds - Jsr Sec 194J,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404362,TDS FROM PAYMENTS MADE TO CONTRACORS,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404363,TDS FROM RENT PAID,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404364,TDS ON FEES FOR PROF. & TECH. SERVICES,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404365,TDS ON INT PAID ON FD AND LOANS,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404366,TDS- INTEREST ON SECURITIES,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404371,TDS Intermediate clg a/c - Jsr,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404372,TDS Intermediate clg a/c - NOA,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404373,TDS Intermediate clg a/c - JODA,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404374,TDS Intermediate clg a/c - JHARIA,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404375,TDS Intermediate clg a/c - WBOKARO,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404376,TDS FROM BROK.ON FD FROM PUBLIC & SH.,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404377,TDS-FROM PAYMENTS TO NON RESIDENTS,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404378,TDS INTERMEDIATE CLG.A/C - H.O.,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404379,TDS FROM PAYMENTS ON PYMT TECH KNOWHOW,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404381,TDS Intermediate clg - Cal,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404382,TDS Intermediate clg a/c - WD,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404391,Liability For Tds - Jsr Sec 194D,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404401,TDS Intermediate clg a/c - Freight Jsr,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404411,Liability For Tds - Jsr Sec 194H,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404422,TDS ON SECURITY DEPOSIT SUNDRY DEBTORS.,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404431,Liab.For Tds From Payments To Contr-Sales,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404432,Conversion Charges Tds,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404433,Liab. For TDS -  Growth Shop,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404441,Liab.For Tds From Payments To Contr-Colly,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404451,Liab.Tds From Pay.Made To Con.-W.B.C.,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404461,Liab.For Tds From Payments To Contr-OMQ,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404462,Liab.For Tds From Payments To Contr-JODA,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404463,Liability For TDS-( Non-Salary)  - Wire Division,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404464,Liability For TDS on Salary- Sec 192 - WD,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404601,Liability For Tds - Bearings Sec 194C,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404602,Liability For Tds - Bearings Sec 194J,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404603,Liability For Tds -  Sec 194H,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404604,Liability For Tds - For Migrated Advances,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404606,Liability For Tds - Brgs Sec 192,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404902,INCOME   TAX DEDUCTED AT SOURCE  OTHER JAMSHEDPUR,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404908,Liability for TDS - 194 A,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2404999,LIABILITY FOR TDS CONTRACTORS (OPENING BAL),Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2405220,Prov Liab For Capital Goods And Svcs - Jsr,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405224,Provision Of Local Creditors For Expenses- Power,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405235,LIAB FOR DEPOSIT & RETENTION CAP Common,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,2405241,Retn & Dep Capital -HMC,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405256,S/Cr For Revenue Goods And Svcs - Export,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405257,S/Cr For Revenue Goods And Svcs - Growth Shop,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405260,Prov Liab For Revenue Supplies - Jsr,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405262,PROV LIAB FOR REVENUE GOODS AND SVCS - JAMADOBA,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405263,PROV LIAB FOR REVENUE GOODS AND SVCS - NOAMUNDI,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405265,Prov Liab For Services and Expenditure,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405266,PROVISION FOR MISC.LIABILITY & EXPENSES,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2405275,Prov Liab For Raw materials - Jsr,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2406201,"SUNDRY CREDITORS FOR EXPENSES,REV,SALES",Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,2406202,LIAB FOR FRT,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2406205,"PROV.CREDITORS FOR EXPENSES,REVENUE SALES",Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2406209,LIAB FOR FRT FOR TRANSHIPMENT-SECOND LEG,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2406367,LIAB FOR OCEAN FREIGHT,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2406402,LIAB FOR FOREIGN AGENTS' COMMISSION STEEL,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2406404,LIAB FOR CLEARING & HANDLING CHARGES STEEL,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2406999,S/CREDITORS FOR EXPENSES - OPENING,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2408201,LIAB.FOR DEPOSIT & RETENTION REVENUE,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,2408203,SECURITY DEPOSIT ON SALES CONTRACTS.,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,2408307,Security deposit from customers-services,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,2408320,Contribution For Capital Expenditure,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,2408401,Vendor Reconciliation Account - Imports,Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,2408402,Vendor Reconciliation Account - Domestic,Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,2408404,Vendor Reconciliation Account - Fi Vendor,Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,2408407,Gr/Ir For Raw Materials - Domestic,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408408,Gr/Ir For Raw Materials - Imports,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408409,Gr/Ir For Stores And Spares,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408410,Gr/Ir For F&Sf Matl,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408412,Vendor On Account - Revenue,Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,2408413,Freight Clearing For Stores,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408414,Freight Clearing For F&Sf Goods,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408415,Freight Clearing For Raw Matls,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408417,Other Charges Clearing Account - Raw Materials,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408418,Other Charges Clearing Account - Stores,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408422,GR/IR Account  -  Services & Capital,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408424,GR/IR Account  -  Capital (Project System),Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408425,Freight Clearing For Capital (Project System ),Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408426,Oth chg Clearing For Capital (Project System ),Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408430,Vendor reconciliation acc -related party,Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,2408441,Gr/Ir For Wire Rods -Domestic,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408442,Gr/Ir For Wire Rods -Imports,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2408461,GR/IR FOR RETAIL STORES,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2409004,GR/IR CLEARING ACCOUNT,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2409111,LIAB FOR PORT CHARGES STEEL,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2409120,Internal Handling Clearing For Raw Matl,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2409999,LIABILITY FOR REBATES & DISCOUNTS (OPENING),Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2420001,ADVANCE FROM CUSTOMERS  SALES,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,2420012,ADVANCE FROM CUSTOMERS - JAMADOBA,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,2420013,ADVANCE FROM CUSTOMERS - NOAMUNDI,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,2420023,ADVANCE FROM CUSTOMERS  SCRAP SALES,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,2420033,Advance From Customers- services,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,2440002,Finance Charges on FLO,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2460029,HDFC DIVIDEND [2018-19]-FP-A/C 50200041,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,2460030,HDFC DIVIDEND [2018-19]-PP-A/C 50200041,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,8210001,CURRENT A/C - RLY FREIGHT LIABILITY - SAG,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,1256032,Other Receivables,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1253050,ADVANCES FOR SERVICES - FOREIGN,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,2405294,ADVANCES FOR SERVICES - FOREIGN,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,1221031,SUNDRY DEBTORS  EXPORTS,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1221032,SUNDRY DEBTORS  Exports-Rct after discounting,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,2420011,ADVANCE FROM CUSTOMERS - WEST BOKARO,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,1222066,Debtors - Sale Of By Products - Jharia,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1222071,DEBTORS FOR EXPORT SALES,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,1253004,Other Financial Assets-Current,Provisions (Income),Receivable,Yes
+Tata Steel Limited,1000,2420014,Advance Towards Rent,Provisions (Income),Receivable,Yes
+Tata Steel Limited,1000,2420027,ADVANCE FROM CUSTOMERS  SLAG & COAL TAR,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,1252003,DEPOSIT WITH OTHER THAN PUBLIC BODIES  SALES,Advance to suppliers,Payable,Yes
+Tata Steel Limited,1000,2409117,Customs Clearing Account For Raw Materials,Vendor - GRIR,Payable,Yes
+Tata Steel Limited,1000,2200176,Lease Liability - Non Current,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,2200187,Lease Liability - Current,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,1222094,Debtors New Material Business,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,5149022,MISC EXPENSES,Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,1257097,TDS/TCS Receivable F.Y. 2019-20,Customer - TDS,Receivable,No
+Tata Steel Limited,1000,1012836,Accumulated Depreciation - Land & Roads (ROU),Provisions (Expense),Payable,Yes
+Tata Steel Limited,1000,5210002,DIVIDEND ON ORDINARY SHARES,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,2460031,HDFC DIVIDEND [2019-20]-FP-A/C-50200050,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,2460032,HDFC DIVIDEND [2019-20]-PP-A/C-50200050,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,2404380,TDS on Dividend,HO Balance,Corporate,No
+Tata Steel Limited,1000,3310000,INCOME FROM INVESTMENT IN SUBSIDIARY CO,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,3300000,INCOME FROM TRADE INVESTMENTS,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,3300001,INCOME FROM TRADE INVESTMENTS - OTHERS,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,3320002,INCOME FROM MUTUAL FUNDS - OTHERS,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1257099,TDS/TCS Receivable F.Y. 2020-21,HO Balance,Corporate,No
+Tata Steel Limited,1000,1251407,Dividend Receivable,HO Balance,Corporate,Yes
+Tata Steel Limited,1000,1204001,Stores In Transit - (Sap) Foreign - Jsr,Vendor Balance,Payable,Yes
+Tata Steel Limited,1000,2405215,Provisional Liability for TDS on Povision- Manual,Vendor - TDS,Payable,No
+Tata Steel Limited,1000,2420025,ADVANCE FROM CUSTOMERS RETAIL SALES,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,2420002,ADVANCE FROM CUSTOMERS -ON ACCOUNT PAYMENT,Advance from customers,Receivable,Yes
+Tata Steel Limited,1000,1060003,EMD PAYMENT TO SUPPLIER - SALES,Customer Balance,Receivable,Yes
+Tata Steel Limited,1000,2408301,LIAB.FOR DEPOSIT & RETENTION REVENUE (CUSTOMER),Customer Balance,Receivable,Yes
+Tata BlueScope Steel Ltd,1000,110000,Customer - Domestic,Customer Balance,Receivable,Yes
+Tata BlueScope Steel Ltd,1000,111000,Vendor Security deposit,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Ltd,1000,111010,Other Advances Vendors,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Ltd,1000,111050,Advance Revenue - Indegenous,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Ltd,1000,111060,Advance Revenue - Services,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Ltd,1000,111071,Vendors Adv Domestic CSP,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Ltd,1000,111105,Customer - Retention,Customer Balance,Receivable,Yes
+Tata BlueScope Steel Ltd,1000,111201,TDS Received - Customer,Customer - TDS,Receivable,No
+Tata BlueScope Steel Ltd,1000,111202,TDS Received - Banks & Others,Customer - TDS,Receivable,No
+Tata BlueScope Steel Ltd,1000,111222,WCT TDS Receivable Maharashtra,Customer Balance,Receivable,Yes
+Tata BlueScope Steel Ltd,1000,310025,Vendor - Associates/Related Parties,Vendor Balance,Payable,Yes
+Tata BlueScope Steel Ltd,1000,310300,Customer - Advance against Sale,Advance from customers,Receivable,Yes
+Tata BlueScope Steel Ltd,1000,310405,Liability for TDS u/s 194C Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310420,Liability for TDS u/s 194H Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310425,Liability for TDS u/s 194I Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310430,Liability for TDS u/s 194J Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310435,Liability for TDS u/s 195 Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310499,TDS Intermediary A/c Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310905,Liability for TDS u/s 194C MidStream,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310920,Liability for TDS u/s 194H MidStream,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310925,Liability for TDS u/s 194I MidStream,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,310930,Liability for TDS u/s 194J MidStream,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,313000,Vendor - Domestic CSP,Vendor Balance,Payable,Yes
+Tata BlueScope Steel Ltd,1000,315708,Liab TCS Scrap -CSP,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,316003,SR/IR -Services,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Ltd,1000,317000,GR/IR RM - CRFH Domestic - CSP,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Ltd,1000,318007,GR/IR CO - Utilities Consumables - CSP,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Ltd,1000,327000,Liability for TDS on Employees Corporate,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,327010,Liab TCS Scrap Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Ltd,1000,328036,Freight Clearing - RM - CSP,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Ltd,1000,111061,Advance Revenue - Services -CSP,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Ltd,1000,310000,Vendor - Domestic,Vendor Balance,Payable,Yes
+Tata BlueScope Steel Ltd,1000,328507,Provison - Accruals & Exp. (Revenue) -CSP,Provisions (Expense),Payable,Yes
+Tata BlueScope Steel Ltd,1000,328506,Provison - Accruals & Exp. (Revenue),Provisions (Expense),Payable,Yes
+Tata BlueScope Steel Ltd,1000,316037,GR/IR - SRM- Coilsothers(Purlins),Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Pvt,1000,111000,Vendor Security deposit,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Pvt,1000,111010,Other Advances Vendors,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Pvt,1000,111050,Advance Revenue - Indegenous,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Pvt,1000,111060,Advance Revenue - Services,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Pvt,1000,111071,Vendors Adv Domestic CSP,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Pvt,1000,310025,Vendor - Associates/Related Parties,Vendor Balance,Payable,Yes
+Tata BlueScope Steel Pvt,1000,310405,Liability for TDS u/s 194C Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310420,Liability for TDS u/s 194H Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310425,Liability for TDS u/s 194I Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310430,Liability for TDS u/s 194J Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310435,Liability for TDS u/s 195 Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310499,TDS Intermediary A/c Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310905,Liability for TDS u/s 194C MidStream,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310920,Liability for TDS u/s 194H MidStream,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310925,Liability for TDS u/s 194I MidStream,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,310930,Liability for TDS u/s 194J MidStream,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,313000,Vendor - Domestic CSP,Vendor Balance,Payable,Yes
+Tata BlueScope Steel Pvt,1000,315708,Liab TCS Scrap -CSP,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,316003,SR/IR -Services,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Pvt,1000,317000,GR/IR RM - CRFH Domestic - CSP,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Pvt,1000,318007,GR/IR CO - Utilities Consumables - CSP,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Pvt,1000,327000,Liability for TDS on Employees Corporate,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,327010,Liab TCS Scrap Pune,Vendor - TDS,Payable,No
+Tata BlueScope Steel Pvt,1000,328036,Freight Clearing - RM - CSP,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Pvt,1000,111061,Advance Revenue - Services -CSP,Advance to suppliers,Payable,Yes
+Tata BlueScope Steel Pvt,1000,310000,Vendor - Domestic,Vendor Balance,Payable,Yes
+Tata BlueScope Steel Pvt,1000,328507,Provison - Accruals & Exp. (Revenue) -CSP,Provisions (Expense),Payable,Yes
+Tata BlueScope Steel Pvt,1000,328506,Provison - Accruals & Exp. (Revenue),Provisions (Expense),Payable,Yes
+Tata BlueScope Steel Pvt,1000,316037,GR/IR - SRM- Coilsothers(Purlins),Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Pvt,1000,110000,Customer - Domestic,Customer Balance,Receivable,Yes
+Tata BlueScope Steel Pvt,1000,111105,Customer - Retention,Customer Balance,Receivable,Yes
+Tata BlueScope Steel Pvt,1000,111201,TDS Received - Customer,Customer - TDS,Receivable,No
+Tata BlueScope Steel Pvt,1000,111202,TDS Received - Banks & Others,Customer - TDS,Receivable,No
+Tata BlueScope Steel Pvt,1000,111222,WCT TDS Receivable Maharashtra,Customer Balance,Receivable,Yes
+Tata BlueScope Steel Pvt,1000,310300,Customer - Advance against Sale,Advance from customers,Receivable,Yes
+Tata BlueScope Steel Ltd,1000,316001,GR/IR - RM-HR Plates,Vendor - GRIR,Payable,Yes
+Tata BlueScope Steel Pvt,1000,316001,GR/IR - RM-HR Plates,Vendor - GRIR,Payable,Yes

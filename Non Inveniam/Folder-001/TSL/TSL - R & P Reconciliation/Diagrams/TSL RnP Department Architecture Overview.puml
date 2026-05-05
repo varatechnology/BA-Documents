@@ -1,0 +1,57 @@
+@startuml
+' Title
+title Supply Chain Reconciliation WebApp - Architecture Diagram
+
+!define RECTANGLE package
+
+' User
+actor User
+
+' Frontend
+RECTANGLE "Frontend\n(ReactJS, NextJS)" as FE
+
+' Backend
+RECTANGLE "Backend API\n(NodeJS/NestJS, GoLang, Etc)" as BE
+
+' Blockchain
+RECTANGLE "Blockchain Layer\n(Hyperledger Fabric 2.5.x)" as BC
+
+' Data Integration
+rectangle "Data Integration\n(SAP APIs/Adapters)" as SAPINT
+
+' Authentication
+rectangle "Authentication\n(TSL ADID/SAML/LDAP)" as AUTH
+
+' Notifications
+rectangle "Notification System\n(Email, SMS, In-App)" as NOTIF
+
+' External Vendors (Phase 5)
+actor "External Vendor" as Vendor
+
+' Dockerized Deployment
+cloud "Docker\nContainerized Deployment" as DOCKER
+
+' SAP Systems
+database "SAP System(s)" as SAP
+
+' Connections
+User --> FE : Uses (UI)
+FE --> AUTH : Authenticates with
+FE --> BE : API Requests/Responses
+BE --> SAPINT : Data Import/Export (API/Manual)
+BE --> SAP : Data (via Integration)
+BE --> BC : Immutable logging
+BE --> NOTIF : Sends notifications
+BE --> DOCKER : Deployed as containers
+Vendor --> FE : (Future: Vendor Portal)
+BE --> FE : Delivers processed data
+
+' Show the backend as orchestrating auth, blockchain, integration, and notifications
+AUTH <-- BE
+BE -- BC : Write/Read audit records
+
+' Visual indication of deployment
+FE .. DOCKER
+BE .. DOCKER
+
+@enduml

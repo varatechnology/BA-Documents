@@ -1,0 +1,319 @@
+{
+
+  "_id": "OACC-STOCKS-1620244357019504714-69",
+
+  "_rev": "4-7a40457f0cd5e0fb04c8b79b18f39362",
+
+  "challanDate": "05.05.2021",
+
+  "challanNo": "4430187217",
+
+  "createdTime": 1620244357,
+
+  "documentType": "DOC_TYPE_STOCKS",
+
+  "lotNo": "1422C33",
+
+  "mainDimension": "50.80 mm OD X4.060 mm THK X4.000 M.Fin Cut",
+
+  "materialNo": "261706",
+
+  "qtyInStock": 240,
+
+  "stockID": "OACC-STOCKS-1620244357019504714-69",
+
+  "totalQty": 240,
+
+  "updatedTime": 1622041024,
+
+  "userEmail": "punjabjanta@gmail.com",
+
+  "userID": "130164",
+
+  "~version": "\u0000CgQCAfMA"
+
+}
+
+ ======================================================================================================================
+
+{
+
+  "_id": "O-124442943153209655",
+
+  "_rev": "5-43dff90e9fd992b916db078270993ae1",
+
+  "buyer": {
+
+    "address": "Patna",
+
+    "email": "shubhamgoel7@gmail.com",
+
+    "name": "Shubham Dummy",
+
+    "phoneNo": "8860405432",
+
+    "userID": "8860405432",
+
+    "userType": ""
+
+  },
+
+  "cancelledBy": "",
+
+  "challanNo": "",
+
+  "consentOTP": 5314,
+
+  "createdTime": 1624442943,
+
+  "documentType": "DOC_TYPE_ORF",
+
+  "industrySegment": "Power",
+
+  "industrySegmentID": "SEGMENT-1618557949-88169",
+
+  "isTCGenerated": true,
+
+  "orfID": "O-124442943153209655",
+
+  "orfStatus": "CONFIRMED",
+
+  "products": [
+
+    {
+
+      "challanDate": "01.05.2021",
+
+      "challanNo": "4430187175",
+
+      "lotNo": "1421A34",
+
+      "mainDimension": "50.80 mm OD X3.250 mm THK X3.400 M.Fin Cut",
+
+      "materialNo": "234515",
+
+      "qty": 0
+
+    },
+
+    {
+
+      "challanDate": "01.05.2021",
+
+      "challanNo": "4430187175",
+
+      "lotNo": "1422C33",
+
+      "mainDimension": "50.80 mm OD X4.060 mm THK X3.400 M.Fin Cut",
+
+      "materialNo": "235708",
+
+      "qty": 0
+
+    }
+
+  ],
+
+  "seller": {
+
+    "address": "40, STRAND ROAD, (3RD FLOOR, ROOM NO : 12/5), KOLKATA-700 001",
+
+    "email": "info@bharatpipe.co.in",
+
+    "name": "Bharat Pipe Fitting Company",
+
+    "phoneNo": "9830133676",
+
+    "userID": "129790",
+
+    "userType": "Distributor"
+
+  },
+
+  "updatedTime": 1624443051,
+
+  "~version": "\u0000CgQCBa0A"
+
+}
+
+ ==================================================================================================================
+
+{
+
+  "_id": "TACC-TCREQ-1624443050-22470",
+
+  "_rev": "10-b4a6009602dffe3bfb26726e3765c179",
+
+  "challanNo": "",
+
+  "createdTime": 1624443050,
+
+  "documentType": "DocTypeTCRequest",
+
+  "htmlFileName": "/home/BCAPG7902A/BatchProgramTC/html/TACC-TCREQ-1624443050-22470.html",
+
+  "isRequestTCForSelf": false,
+
+  "isReturned": true,
+
+  "materialNo": "234515",
+
+  "orfID": "O-124442943153209655",
+
+  "orfProducts": [
+
+    {
+
+      "challanDate": "01.05.2021",
+
+      "challanNo": "4430187175",
+
+      "lotNo": "1421A34",
+
+      "mainDimension": "50.80 mm OD X3.250 mm THK X3.400 M.Fin Cut",
+
+      "materialNo": "234515",
+
+      "qty": 0
+
+    }
+
+  ],
+
+  "signedPDFFileName": "/home/BCAPG7902A/BatchProgramTC/signed/TACC-TCREQ-1624443050-22470.pdf",
+
+  "status": "FINISHED",
+
+  "tcNo": "12444305098/1/21-22",
+
+  "tcReqID": "TACC-TCREQ-1624443050-22470",
+
+  "unsignedPDFFileName": "/home/BCAPG7902A/BatchProgramTC/unsigned/TACC-TCREQ-1624443050-22470.pdf",
+
+  "updatedTime": 1624443812,
+
+  "~version": "\u0000CgQCBbQA"
+
+}
+
+ =========================================================================================================================
+
+{
+
+  "_id": "TACC-TCREQ-1624443050-62422",
+
+  "_rev": "10-aa9d95b5239271c2f0ab3408f2f7bd30",
+
+  "challanNo": "",
+
+  "createdTime": 1624443050,
+
+  "documentType": "DocTypeTCRequest",
+
+  "htmlFileName": "/home/BCAPG7902A/BatchProgramTC/html/TACC-TCREQ-1624443050-62422.html",
+
+  "isRequestTCForSelf": false,
+
+  "isReturned": true,
+
+  "materialNo": "261706",
+
+  "orfID": "O-124442943153209655",
+
+  "orfProducts": [
+
+    {
+
+      "challanDate": "01.05.2021",
+
+      "challanNo": "4430187175",
+
+      "lotNo": "1422C33",
+
+      "mainDimension": "50.80 mm OD X4.060 mm THK X3.400 M.Fin Cut",
+
+      "materialNo": "235708",
+
+      "qty": 0
+
+    }
+
+  ],
+
+  "signedPDFFileName": "/home/BCAPG7902A/BatchProgramTC/signed/TACC-TCREQ-1624443050-62422.pdf",
+
+  "status": "FINISHED",
+
+  "tcNo": "12444305021/1/21-22",
+
+  "tcReqID": "TACC-TCREQ-1624443050-62422",
+
+  "unsignedPDFFileName": "/home/BCAPG7902A/BatchProgramTC/unsigned/TACC-TCREQ-1624443050-62422.pdf",
+
+  "updatedTime": 1624443777,
+
+  "~version": "\u0000CgQCBbAA"
+
+}
+
+ 
+
+ ================================================================================================================
+
+{
+
+  "_id": "TACC-TCREQ-1624443050-68815",
+
+  "_rev": "5-280d45b52162bfc65519aea7fd31bba7",
+
+  "challanNo": "",
+
+  "createdTime": 1624443050,
+
+  "documentType": "DocTypeTCRequest",
+
+  "htmlFileName": "/home/BCAPG7902A/BatchProgramTC/html/TACC-TCREQ-1624443050-68815.html",
+
+  "isRequestTCForSelf": false,
+
+  "isReturned": false,
+
+  "materialNo": "235708",
+
+  "orfID": "O-124442943153209655",
+
+  "orfProducts": [
+
+    {
+
+      "challanDate": "01.05.2021",
+
+      "challanNo": "4430187175",
+
+      "lotNo": "1422C33",
+
+      "mainDimension": "50.80 mm OD X4.060 mm THK X3.400 M.Fin Cut",
+
+      "materialNo": "235708",
+
+      "qty": 2
+
+    }
+
+  ],
+
+  "signedPDFFileName": "/home/BCAPG7902A/BatchProgramTC/signed/TACC-TCREQ-1624443050-68815.pdf",
+
+  "status": "FINISHED",
+
+  "tcNo": "12444305047/1/21-22",
+
+  "tcReqID": "TACC-TCREQ-1624443050-68815",
+
+  "unsignedPDFFileName": "/home/BCAPG7902A/BatchProgramTC/unsigned/TACC-TCREQ-1624443050-68815.pdf",
+
+  "updatedTime": 1624443124,
+
+  "~version": "\u0000CgQCBaIA"
+
+}

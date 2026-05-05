@@ -1,0 +1,12 @@
+1. Data is shown based on Material and LotNo.
+2. Last digit was not sent of ChargeVal, thatswhy we getting same batch no in multiple rows.
+3. No of tubes should be equal to the sum of chargeVal of different Charge.
+4. Material No should contain the same details.
+5. Fin_Lot can have multiple material description.
+6. If material description does not match, we can reject the invoice insertion request.
+7. It is suggested to have another discussion for return scenario. Srijit also supporting one of our proposal to hanle it saperately.
+8. Challan a tensile test report repeat ho6e.
+
+
+
+=>  200 => last Challan  17

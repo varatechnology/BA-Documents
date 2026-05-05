@@ -1,0 +1,56 @@
+<AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.01">
+<Fr>
+<FIId>
+<FinInstnId>
+<BICFI>AXISINBI</BICFI>
+</FinInstnId>
+</FIId>
+</Fr>
+<To>
+<OrgId>
+<Id>
+<OrgId>
+<AnyBIC>TSTEINBI</AnyBIC>
+</OrgId>
+</Id>
+</OrgId>
+</To>
+<BizMsgIdr>DE164078397675</BizMsgIdr>
+<MsgDefIdr>pain.002.001.09</MsgDefIdr>
+<BizSvc>SWIFT IN A1_A2</BizSvc>
+<CreDt>2021-12-29T18:49:36Z</CreDt>
+</AppHdr>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.002.001.09">
+<CstmrPmtStsRpt>
+<GrpHdr>
+<MsgId>DE164078397675</MsgId>
+<CreDtTm>2021-12-29T18:49:36</CreDtTm>
+<InitgPty>
+<Id>
+<OrgId>
+<AnyBIC>TSTEINBI</AnyBIC>
+</OrgId>
+</Id>
+</InitgPty>
+</GrpHdr>
+<OrgnlGrpInfAndSts>
+<OrgnlMsgId>DE164078397675</OrgnlMsgId>
+<OrgnlMsgNmId>pain.001.001.09</OrgnlMsgNmId>
+<OrgnlCreDtTm>2021-12-29T18:49:36Z</OrgnlCreDtTm>
+<GrpSts>RJCT</GrpSts>
+</OrgnlGrpInfAndSts>
+<OrgnlPmtInfAndSts>
+<OrgnlPmtInfId>DE164078397675</OrgnlPmtInfId>
+<TxInfAndSts>
+<OrgnlInstrId>DE164078397675</OrgnlInstrId>
+<OrgnlEndToEndId>DE164078397675</OrgnlEndToEndId>
+<TxSts>RJCT</TxSts>
+<StsRsnInf>
+<AddtlInf>AXISINBITSTEINBIpain002-DE164078397675-OTHR-20220103.xml</AddtlInf>
+</StsRsnInf>
+<AccptncDtTm>2021-12-29T18:49:36Z</AccptncDtTm>
+<AcctSvcrRef>Rejected by Bank</AcctSvcrRef>
+</TxInfAndSts>
+</OrgnlPmtInfAndSts>
+</CstmrPmtStsRpt>
+</Document>

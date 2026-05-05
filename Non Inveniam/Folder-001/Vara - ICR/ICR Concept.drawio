@@ -1,0 +1,197 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="26.0.16" pages="3">
+  <diagram name="Page-1" id="ERKotIAunHkI7x1__cGZ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-2" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;ICR stands for Inter-Comparny Reconciliation. It is a financial aspect of company where the transactions between two subsidiary company are taken for accounting purpose. The transactions between two subsdiaries are internal transaction for the Parent Company, hence it is very important to track the inter-company transaction for taxation.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-3" value="" style="endArrow=none;html=1;rounded=0;startSize=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="720" as="sourcePoint" />
+            <mxPoint x="720" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="720" as="sourcePoint" />
+            <mxPoint x="1120" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-5" value="Company 1 Book" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-6" value="Company 2 Book" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-7" value="Places an PO" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="260" as="sourcePoint" />
+            <mxPoint x="1120" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-8" value="Invoice Raised" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="340" as="sourcePoint" />
+            <mxPoint x="720" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-9" value="Invoice Received" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="400" as="sourcePoint" />
+            <mxPoint x="1120" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-10" value="Goods &amp;amp; Services Provided" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="460" as="sourcePoint" />
+            <mxPoint x="720" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-11" value="Check in Transit" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="549" as="sourcePoint" />
+            <mxPoint x="720" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="549" />
+              <mxPoint x="590" y="590" />
+              <mxPoint x="590" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="620" as="sourcePoint" />
+            <mxPoint x="1120" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="840" as="sourcePoint" />
+            <mxPoint x="750" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="850" as="sourcePoint" />
+            <mxPoint x="760" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xnUlnc7JPCNiMXwKx4PL-18" value="Goods - in transit" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="500" as="sourcePoint" />
+            <mxPoint x="720" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ol-Cjzx_y33w-5YFr6Pb" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="056RRzdfOuOOhiHgeSEj-1" value="Child 1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="056RRzdfOuOOhiHgeSEj-2" value="Child 2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="056RRzdfOuOOhiHgeSEj-5" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quantum_ledger_database;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="056RRzdfOuOOhiHgeSEj-6" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quantum_ledger_database;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="056RRzdfOuOOhiHgeSEj-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Key Considerations&lt;/h1&gt;&lt;p&gt;1. Both parties have their own ledger to main the transaction infromation&lt;/p&gt;&lt;p&gt;2. There are not necessarily both ledger have same collumn and rows. Because, both parties have their way of managing transactions.&lt;/p&gt;&lt;p&gt;3. But, at the end of the year, we have to tally both the ledgers to transparent accounting.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="056RRzdfOuOOhiHgeSEj-10" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Intercompany Reconciliation&lt;/h1&gt;&lt;p&gt;1. Related Parites: Parent &amp;lt;-&amp;gt; child, child &amp;lt;-&amp;gt;child&lt;/p&gt;&lt;p&gt;2. For transparent accounting and tax saving, the parent company need to declare the inter-company transactions to set-off profit and loss&lt;/p&gt;&lt;p&gt;3. Identification and reconciliation is very much required for netting and settling.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="490" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="056RRzdfOuOOhiHgeSEj-11" value="Parent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="056RRzdfOuOOhiHgeSEj-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Transaction Reconciliation&lt;/h1&gt;&lt;p&gt;1. Identification of Related Party transactions&lt;/p&gt;&lt;p&gt;2. Group based on common informations&amp;nbsp;&lt;/p&gt;&lt;p&gt;3. Calculate the net value of the transaction&amp;nbsp;&lt;/p&gt;&lt;p&gt;4. If the net transaction amount is zero, then we can say the transactions are settled&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="255" width="320" height="175" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M43cCGNLKHO6YENNKoav" name="Page-3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-6" value="Uploads" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wa9ss2x2bq_Onk3BohCc-1" target="Wa9ss2x2bq_Onk3BohCc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-8" value="Data Validation&lt;div&gt;(As per Schema Defined)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wa9ss2x2bq_Onk3BohCc-5" target="Wa9ss2x2bq_Onk3BohCc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-5" value="Web App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-10" value="Reconciliation Result&lt;div&gt;(Automated + Fuzzy)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wa9ss2x2bq_Onk3BohCc-7" target="Wa9ss2x2bq_Onk3BohCc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-12" value="&lt;div&gt;Automated&lt;/div&gt;Reconciliation&lt;div&gt;Result&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wa9ss2x2bq_Onk3BohCc-7" target="Wa9ss2x2bq_Onk3BohCc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-7" value="Reconciliation Engine" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-9" value="Pass Rule" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Wa9ss2x2bq_Onk3BohCc-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="170" as="sourcePoint" />
+            <mxPoint x="880" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-11" value="Hyperledger" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-22" value="Want Reports" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wa9ss2x2bq_Onk3BohCc-23" target="Wa9ss2x2bq_Onk3BohCc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-23" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-24" value="- Reconciliation Set Id&lt;div&gt;- Report Id&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;" edge="1" parent="1" source="Wa9ss2x2bq_Onk3BohCc-25" target="Wa9ss2x2bq_Onk3BohCc-28">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-25" value="Web App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-26" value="Report Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wa9ss2x2bq_Onk3BohCc-28" target="Wa9ss2x2bq_Onk3BohCc-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="650" />
+              <mxPoint x="400" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-27" value="&lt;div&gt;Reconciled Txn Ids&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="Wa9ss2x2bq_Onk3BohCc-28" target="Wa9ss2x2bq_Onk3BohCc-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-28" value="Reporting&lt;div&gt;Engine&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-29" value="Report Preparation Logic" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Wa9ss2x2bq_Onk3BohCc-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="440" as="sourcePoint" />
+            <mxPoint x="880" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa9ss2x2bq_Onk3BohCc-30" value="Hyperledger" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

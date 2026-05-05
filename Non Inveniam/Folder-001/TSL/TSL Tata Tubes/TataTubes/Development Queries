@@ -1,0 +1,26 @@
+
+
+1. Every invoice has MechanicalPropertyResult. It contains some vital informations. Is is unique for MaterialNo(MATNR) specified here ?
+
+2. Every invoice has MechanicalPropertyResult. Is there any possibility of the specified MaterialNo(MATNR) having different MainDimension(Maktx) ?
+
+3. Is FinLot + MatNr unique ?
+
+4. The user need to place return request against the TC instead of OrderId and Lot_No.
+
+5. What is this NumberOfTubes ?
+
+
+
+
+
+Seller -> Inv_No -> Charge -> FinLot -> Qty -> Buyer -> OrderId
+
+s1     ->  I1    -> C1     ->  F1    ->  120  -> B1  ->  O1
+s1     ->  I1    -> C2     ->  F1    ->   30  -> B1  ->  O1
+s1     ->  I2    -> C3     ->  F1    ->   20  -> B1  ->  O1
+
+
+Buyer -> OrederID -> TC ->  FinLot ->  Qnty ->  Seller ->  ReturnRqstId
+
+B1    ->  O1      -> T1 ->   F1   ->   5   ->   S1     ->    R1
