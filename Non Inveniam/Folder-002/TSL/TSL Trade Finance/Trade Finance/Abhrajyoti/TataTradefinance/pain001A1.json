@@ -1,0 +1,12 @@
+{
+    "schema":{
+        "element": {
+			"_name": "Document",
+			"_type": "Document",
+			"__prefix": "xs"
+		},
+        "complexType":[
+            
+        ]
+    } 
+}

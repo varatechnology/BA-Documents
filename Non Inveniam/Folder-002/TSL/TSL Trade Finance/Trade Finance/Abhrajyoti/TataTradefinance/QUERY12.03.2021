@@ -1,0 +1,6 @@
+Group header =1. Msg Identification Number
+	      2. Creation Date ad Time
+              3. No of transaction
+
+1. Where we will get Brillo Reference No?  Whether this no is equal to MsgIdNo or I can gen MsgIDNO defferently?
+2. PO Creation Date/PO Creation Time? However is it creating Date and Time?

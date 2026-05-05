@@ -1,0 +1,22 @@
+1. Authorization Date will be : Credit Date and creat time
+                      	     Authorize,value date and time on approvar's approval
+2. Control SUM (Doubt)
+3. Debtor account and charges account will same. (Pupulate TSL account in both table)
+4. BICFI will come from brillo
+5. Maker will put the vlaue of charge barer*****. Values will be drop down,4 values are given.
+6. <CtrOfRes> from exporter account form Y table 23 row.
+7. Advance import guarantee => Garantee comes only when advance is comming from Y table.
+8. Bill of entry related section not required.
+9. Trasnport details>BLW
+10. 1221 invoice no repeat. Array.
+11. If invoice no repeat then transaport document repeat only for NADO and A1 ******.
+36-41 and 29-34
+12. NNDO 2 pain SERV and PIMP 
+Advance - AIPM
+Debit Authority - PIMP
+13. Net Payable Amount coming from Y table. Abroad value
+
+IF 38 39 40 41 42 43 50 51 52 53 A1 value
+
+14. Total remitance value will be sum of all invoice amount ( dollar amount).
+15. Supplementary data value maker will put.

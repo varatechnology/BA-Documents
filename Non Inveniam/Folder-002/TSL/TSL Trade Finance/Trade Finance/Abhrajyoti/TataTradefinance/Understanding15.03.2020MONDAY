@@ -1,0 +1,43 @@
+1. Authorization need
+2. No of Invoice against one ref no. If No of inv is no of transaction?
+   How to denote a invoice or transaction?
+3. Creation Date and Time. When data is coming to blockchain generate Date and Time.(Need confirmation)
+4. Message Identificatoin number is not coming from Y table. (Need Confirmation from mukta's file)
+5. Authorization should be hard coded in blockchain***
+6. "Control sum" tag name <CtrlSum> keep blank***
+7. Initiating Party tag name <InitgPty> name will be "TATA STEEL".
+8. Payment Method hard coded "TRF".
+9. Service level not urgent. Remaining part of the tag we can ignore.
+10. Request Execution Date. Final Approval date. Creator date + 1-3. Time between 10am-5pm.
+11. Debtro account ID hard coded "NONREF". IBAN not required.
+12. Charges Acount will be debtor account. Account always INR.
+13. Debtor agent.
+14. Tata Steel banker address HDFC. 
+15. Banker postal address ignore.
+16. Ultimate Debtor Acount ignore.
+17. Charges Account Name is "TATA STEEL".
+18. Payment type information not ignore.
+19. <Amt> Instructed amount 0 hard code. Ignore other all.
+20. Exchange rate population ignore.
+21. Charge bearer give option to maker. Give warning if maker is not filling the field.
+22. BICFI is creditor account
+23. <CdtrAgt> <FinInstnId> <BICFI>DEUTFRPPXXX</BICFI>. Ignore creditor swift code.
+24. Supplementary Data
+	a. Place and Date Ignore.
+	b. Envelope 
+25. Post Shipment Details Choice
+26. Additional Info array.
+27. Invoice
+         a. Amount
+28. Harmonised Community Code put by Maker (Need Confirmation)
+29. DtldPmtInf ignore.
+30. Net pay amount inside invoice details tag (Need Confirmation)
+31. Value date of remitance (Need Confirmation)
+*****Envelope tag whether paretn element or chield element
+
+
+TO RAM SIR
+When schedular will take the file from our server will it give any trigger So that we can understant that it is taking file now?
+***When a pain002 will come will we get any trigger that it has come?
+
+

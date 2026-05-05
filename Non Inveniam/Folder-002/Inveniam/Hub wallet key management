@@ -1,0 +1,552 @@
+<mxfile host="app.diagrams.net" modified="2023-06-26T13:35:22.766Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="2qhvdOMGpqvPR9Ml3aO-" version="21.5.0" type="google" pages="4">
+  <diagram id="k1mTXoI20wG0-vl8E7fs" name="Present Scenario">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Vault Encoded string&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;vault://......&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8uz3fh50O-4BbjO8PvD-7" target="PZ_iUT-1qayORzv4u6vI-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-15" value="Decoded wallet keys&lt;br&gt;( Wallet keys are available to use )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8uz3fh50O-4BbjO8PvD-7" target="PZ_iUT-1qayORzv4u6vI-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g8uz3fh50O-4BbjO8PvD-7" value="Vault" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vault;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-4" value="Wallet&lt;br&gt;Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8uz3fh50O-4BbjO8PvD-8" target="PZ_iUT-1qayORzv4u6vI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g8uz3fh50O-4BbjO8PvD-8" value="User" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="230" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-11" value="GET&lt;br&gt;Vault encoded url&amp;nbsp;&lt;br&gt;of an wallet keys" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8uz3fh50O-4BbjO8PvD-15" target="PZ_iUT-1qayORzv4u6vI-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="338" />
+              <mxPoint x="450" y="338" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g8uz3fh50O-4BbjO8PvD-15" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-3" value="SSL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="PZ_iUT-1qayORzv4u6vI-1" target="PZ_iUT-1qayORzv4u6vI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-1" value="Hub UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-6" value="Encrypt&lt;br&gt;Wallet Keys&lt;br&gt;( vault encryption )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PZ_iUT-1qayORzv4u6vI-2" target="g8uz3fh50O-4BbjO8PvD-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="-80" />
+              <mxPoint x="615" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-8" value="STORE&lt;br&gt;Vault Encoded string" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PZ_iUT-1qayORzv4u6vI-2" target="g8uz3fh50O-4BbjO8PvD-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-14" value="DECODE&lt;br&gt;Vault encoded string" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PZ_iUT-1qayORzv4u6vI-2" target="g8uz3fh50O-4BbjO8PvD-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="180" />
+              <mxPoint x="580" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-2" value="Hub Server" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="120" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ_iUT-1qayORzv4u6vI-16" value="&lt;h1&gt;Notes&lt;/h1&gt;&lt;p&gt;1. Vault stores the wallet keys in an encrypted format with highest level of security&lt;/p&gt;&lt;p&gt;2. Hub databases does not store wallet keys directly, but it stores Vault encoded cypher string of a wallet&lt;/p&gt;&lt;p&gt;3. Hub can decypher the Vault encoded strings with the Vault token and vault access&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="50" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="K_eRq0GCGgYyUcS_-3dv-1" value="&lt;h1&gt;Critical Threats&lt;/h1&gt;&lt;p&gt;1. Anyone having the Vault token and access, he can decypher the vault encoded strings.&lt;/p&gt;&lt;p&gt;2. Due to the above FACT, all wallet keys are getting compromised.&lt;/p&gt;&lt;p&gt;3. Hub server is a single point for cyber attacks&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="310" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="J3QrUUOHJtk8ZgSrykLH-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J3QrUUOHJtk8ZgSrykLH-2" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J3QrUUOHJtk8ZgSrykLH-3" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="196" y="58" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J3QrUUOHJtk8ZgSrykLH-4" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="284" y="52" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J3QrUUOHJtk8ZgSrykLH-5" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="330" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J3QrUUOHJtk8ZgSrykLH-6" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="350" y="314" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J3QrUUOHJtk8ZgSrykLH-7" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="339" y="154" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J3QrUUOHJtk8ZgSrykLH-8" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="415" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Proposed Scenario" id="JzofjDPlNDIX6yyvtfHq">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-0" />
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-1" parent="H--bJcAQ3lL-xQJmQ7f_-0" />
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Vault Encoded string&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;vault://......&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="H--bJcAQ3lL-xQJmQ7f_-4" target="H--bJcAQ3lL-xQJmQ7f_-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-3" value="Decoded wallet keys&lt;br&gt;( Wallet keys are available to use )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="H--bJcAQ3lL-xQJmQ7f_-4" target="fOktlQXFDCukJFMK0fvu-5">
+          <mxGeometry x="-0.4563" relative="1" as="geometry">
+            <mxPoint x="550" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="255" />
+              <mxPoint x="535" y="255" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-4" value="Vault" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vault;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="560" y="-30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-5" value="Wallet&lt;br&gt;Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="H--bJcAQ3lL-xQJmQ7f_-6" target="H--bJcAQ3lL-xQJmQ7f_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-6" value="User" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="-290" y="230" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-7" value="GET&lt;br&gt;Vault encoded url&amp;nbsp;&lt;br&gt;of an wallet keys" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="H--bJcAQ3lL-xQJmQ7f_-8" target="H--bJcAQ3lL-xQJmQ7f_-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="338" />
+              <mxPoint x="450" y="338" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-8" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="590" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-9" value="SSL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="H--bJcAQ3lL-xQJmQ7f_-10" target="H--bJcAQ3lL-xQJmQ7f_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-10" value="Hub UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="-80" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-11" value="Encrypt&lt;br&gt;Wallet Keys&lt;br&gt;( vault encryption )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="fOktlQXFDCukJFMK0fvu-0" target="H--bJcAQ3lL-xQJmQ7f_-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="-80" />
+              <mxPoint x="615" y="-80" />
+            </Array>
+            <mxPoint x="210" y="-60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-12" value="STORE&lt;br&gt;Vault Encoded string" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="H--bJcAQ3lL-xQJmQ7f_-14" target="H--bJcAQ3lL-xQJmQ7f_-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-13" value="DECODE&lt;br&gt;Vault encoded string" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="H--bJcAQ3lL-xQJmQ7f_-14" target="H--bJcAQ3lL-xQJmQ7f_-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="180" />
+              <mxPoint x="580" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOktlQXFDCukJFMK0fvu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="H--bJcAQ3lL-xQJmQ7f_-14" target="fOktlQXFDCukJFMK0fvu-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="80" />
+              <mxPoint x="215" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-14" value="Hub Server" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="190" y="90" width="120" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-15" value="&lt;h1&gt;Notes&lt;/h1&gt;&lt;p&gt;1. Vault stores the wallet keys in an encrypted format with highest level of security&lt;/p&gt;&lt;p&gt;2. Hub databases does not store wallet keys directly, but it stores Vault encoded cypher string of a wallet&lt;/p&gt;&lt;p&gt;3. Hub can decypher the Vault encoded strings with the Vault token and vault access&lt;/p&gt;&lt;p&gt;4. To decypher the wallet keys, we need to have Secret 1 and Secret 2&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="-320" y="20" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-16" value="&lt;h1&gt;Threats Eleminated&lt;/h1&gt;&lt;p&gt;1. Hub cannot use the wallet keys without having Secret 1 and Secret 2&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. Due to the point 1, if someone has access to the Vault, he will not be able to see the wallet keys. So, no wallets are getting compromised.&lt;/p&gt;&lt;p&gt;3. Hub server is not single point for cyber attacks. Cyber attackers need to target a specifc wallet also.&lt;/p&gt;&lt;p&gt;4. To decypher every wallet, additional processing units will be required for the attackers.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="-320" y="310" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-17" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="-210" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-18" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="80" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-19" value="3A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="190" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-20" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="284" y="52" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-21" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="330" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-22" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="350" y="314" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-23" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="339" y="154" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H--bJcAQ3lL-xQJmQ7f_-24" value="8A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="660" y="210" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fOktlQXFDCukJFMK0fvu-0" value="Encrypt&lt;br&gt;wallet keys with&lt;br&gt;( Secret 1 and&lt;br&gt;Secret 2 )" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="160" y="-50" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fOktlQXFDCukJFMK0fvu-3" value="3B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="220" y="-104" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fOktlQXFDCukJFMK0fvu-4" value="8B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="359" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fOktlQXFDCukJFMK0fvu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="H--bJcAQ3lL-xQJmQ7f_-1" source="fOktlQXFDCukJFMK0fvu-5" target="H--bJcAQ3lL-xQJmQ7f_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOktlQXFDCukJFMK0fvu-5" value="Decrypt&lt;br&gt;wallet keys with&lt;br&gt;( Secret 1 and&lt;br&gt;Secret 2 )" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="425" y="205" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Xc2n890nvd468IkJG_eE-0" value="&lt;h1&gt;Opportunities for Hub as a Product ( with this approach )&lt;/h1&gt;&lt;p&gt;1. Enterprises can share the Hub Keys and Hub wallet secrets ( Secret 2 ) with 3rd Parties. As a result, original wallet keys need not to be shared with third parties.&lt;/p&gt;&lt;p&gt;2. Hub can develop a time limited wallet share feature. With this feature, the enterprises can create a time bounded Hub wallet secretes ( another Pair of Secret 1 and Secret 2 ) and new Secret 2 can be shared with any other 3rd Party.&lt;/p&gt;&lt;p&gt;As the above Secret 2 is time bounded, Enterprises need not to worry about maintaining a list of Trusted 3rd Parties. Additionaly, the Hub can provide a revoke feature for any time bounded Secrets. Revoking time bounded secret will delete the encrypted copy of the wallet keys.&lt;/p&gt;&lt;p&gt;3. As Hub cannot see the wallet keys without having the secrets, it is Custodian to the Hub User.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="H--bJcAQ3lL-xQJmQ7f_-1">
+          <mxGeometry x="-320" y="520" width="740" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2cy36AQmk5MJxmLkLV3L" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dJi_pY16HI7b15D0pjdX-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Vault Encoded string&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;vault://......&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJi_pY16HI7b15D0pjdX-3" target="dJi_pY16HI7b15D0pjdX-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-2" value="Decoded wallet keys&lt;br&gt;( Wallet keys are available to use )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJi_pY16HI7b15D0pjdX-3" target="dJi_pY16HI7b15D0pjdX-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-3" value="Vault" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vault;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-4" value="Wallet&lt;br&gt;Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJi_pY16HI7b15D0pjdX-5" target="dJi_pY16HI7b15D0pjdX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-5" value="User" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="230" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-6" value="GET&lt;br&gt;Vault encoded url&amp;nbsp;&lt;br&gt;of an wallet keys" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJi_pY16HI7b15D0pjdX-7" target="dJi_pY16HI7b15D0pjdX-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="338" />
+              <mxPoint x="450" y="338" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-7" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-8" value="SSL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="dJi_pY16HI7b15D0pjdX-9" target="dJi_pY16HI7b15D0pjdX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-9" value="Hub UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-10" value="Encrypt&lt;br&gt;Wallet Keys&lt;br&gt;( vault encryption )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dJi_pY16HI7b15D0pjdX-13" target="dJi_pY16HI7b15D0pjdX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="-80" />
+              <mxPoint x="615" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-11" value="STORE&lt;br&gt;Vault Encoded string" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dJi_pY16HI7b15D0pjdX-13" target="dJi_pY16HI7b15D0pjdX-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-12" value="DECODE&lt;br&gt;Vault encoded string" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dJi_pY16HI7b15D0pjdX-13" target="dJi_pY16HI7b15D0pjdX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="180" />
+              <mxPoint x="580" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-13" value="Hub Server" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="120" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-14" value="&lt;h1&gt;Notes&lt;/h1&gt;&lt;p&gt;1. Vault stores the wallet keys in an encrypted format with highest level of security&lt;/p&gt;&lt;p&gt;2. Hub databases does not store wallet keys directly, but it stores Vault encoded cypher string of a wallet&lt;/p&gt;&lt;p&gt;3. Hub can decypher the Vault encoded strings with the Vault token and vault access&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="50" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-15" value="&lt;h1&gt;Critical Threats&lt;/h1&gt;&lt;p&gt;1. Anyone having the Vault token and access, he can decypher the vault encoded strings.&lt;/p&gt;&lt;p&gt;2. Due to the above FACT, all wallet keys are getting compromised.&lt;/p&gt;&lt;p&gt;3. Hub server is a single point for cyber attacks&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="310" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-16" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-17" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-18" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="196" y="58" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-19" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="284" y="52" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-20" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="330" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-21" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="350" y="314" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-22" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="339" y="154" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dJi_pY16HI7b15D0pjdX-23" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="415" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Vault Encoded string&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;vault://......&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-3" target="TFBeAIytjmZ6rmNEA32S-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-2" value="Decoded wallet keys&lt;br&gt;( Wallet keys are not yet available )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-3" target="TFBeAIytjmZ6rmNEA32S-29">
+          <mxGeometry x="-0.4563" relative="1" as="geometry">
+            <mxPoint x="550" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="905" />
+              <mxPoint x="535" y="905" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-3" value="Vault" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vault;" vertex="1" parent="1">
+          <mxGeometry x="560" y="620" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-4" value="Wallet&lt;br&gt;Credentials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-5" target="TFBeAIytjmZ6rmNEA32S-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-5" value="User" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="880" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-6" value="GET&lt;br&gt;Vault encoded url&amp;nbsp;&lt;br&gt;of an wallet keys" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-7" target="TFBeAIytjmZ6rmNEA32S-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="988" />
+              <mxPoint x="450" y="988" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-7" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1010" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-8" value="SSL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-9" target="TFBeAIytjmZ6rmNEA32S-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-9" value="Hub UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-10" value="Encrypt&lt;br&gt;Wallet Keys&lt;br&gt;( vault encryption )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-25" target="TFBeAIytjmZ6rmNEA32S-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="570" />
+              <mxPoint x="615" y="570" />
+            </Array>
+            <mxPoint x="210" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-11" value="STORE&lt;br&gt;Vault Encoded string" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-14" target="TFBeAIytjmZ6rmNEA32S-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-12" value="DECODE&lt;br&gt;Vault encoded string" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-14" target="TFBeAIytjmZ6rmNEA32S-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="830" />
+              <mxPoint x="580" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-14" target="TFBeAIytjmZ6rmNEA32S-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="730" />
+              <mxPoint x="215" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-14" value="Hub Server" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="740" width="120" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-15" value="&lt;h1&gt;Notes&lt;/h1&gt;&lt;p&gt;1. Vault stores the wallet keys in an encrypted format with highest level of security&lt;/p&gt;&lt;p&gt;2. Hub databases does not store wallet keys directly, but it stores Vault encoded cypher string of a wallet&lt;/p&gt;&lt;p&gt;3. Hub can decypher the Vault encoded strings with the Vault token and vault access&lt;/p&gt;&lt;p&gt;4. To decypher the wallet keys, we need to have Secret 1 and Secret 2&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="670" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-16" value="&lt;h1&gt;Threats Eleminated&lt;/h1&gt;&lt;p&gt;1. Hub cannot use the wallet keys without having Secret 1 and Secret 2&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. Due to the point 1, if someone has access to the Vault, he will not be able to see the wallet keys. So, no wallets are getting compromised.&lt;/p&gt;&lt;p&gt;3. Hub server is not single point for cyber attacks. Cyber attackers need to target a specifc wallet also.&lt;/p&gt;&lt;p&gt;4. To decypher every wallet, additional processing units will be required for the attackers.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="960" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-17" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="880" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-18" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-19" value="3A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="190" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-20" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="284" y="702" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-21" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1045" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-22" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="350" y="964" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-23" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="339" y="804" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-24" value="8A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="660" y="860" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-25" value="Encrypt&lt;br&gt;wallet keys with&lt;br&gt;( Secret 1 and&lt;br&gt;Secret 2 )" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-26" value="3B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="220" y="546" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-27" value="8B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="359" y="910" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TFBeAIytjmZ6rmNEA32S-29" target="TFBeAIytjmZ6rmNEA32S-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-29" value="Decrypt&lt;br&gt;wallet keys with&lt;br&gt;( Secret 1 and&lt;br&gt;Secret 2 )" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="855" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-30" value="&lt;h1&gt;Opportunities for Hub as a Product ( with this approach )&lt;/h1&gt;&lt;p&gt;1. Enterprises can share the Hub Keys and Hub wallet secrets ( Secret 2 ) with 3rd Parties. As a result, original wallet keys need not to be shared with third parties.&lt;/p&gt;&lt;p&gt;2. Hub can develop a time limited wallet share feature. With this feature, the enterprises can create a time bounded Hub wallet secretes ( another Pair of Secret 1 and Secret 2 ) and new Secret 2 can be shared with any other 3rd Party.&lt;/p&gt;&lt;p&gt;As the above Secret 2 is time bounded, Enterprises need not to worry about maintaining a list of Trusted 3rd Parties. Additionaly, the Hub can provide a revoke feature for any time bounded Secrets. Revoking time bounded secret will delete the encrypted copy of the wallet keys.&lt;/p&gt;&lt;p&gt;3. As Hub cannot see the wallet keys without having the secrets, it is Custodian to the Hub User.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1170" width="740" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-32" value="&lt;h1&gt;Present Hub Key management&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-150" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-33" value="&lt;h1&gt;Proposed Hub Key management&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="-290" y="500" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TFBeAIytjmZ6rmNEA32S-34" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=5;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-361.3333740234375" y="480" as="sourcePoint" />
+            <mxPoint x="730" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="84cJUMzrhrZD7dugIpDj" name="Page-3">
+    <mxGraphModel dx="745" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9u0tOdoa9083nMHy1FzU-1" value="path: /development/keys/key1.json&lt;br&gt;url: vault://&amp;lt;vault-domain&amp;gt;/data/development/keys/key1.json" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="30" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-2" value="path: /development/keys-encrypted/key1.json&lt;br&gt;to-store-url: vault://&amp;lt;vault-domain&amp;gt;/data/encrypt/development/keys/key1.json&lt;br&gt;to-recover-url: vault://&amp;lt;vault-doamin&amp;gt;/data/decrypt/cypherText" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-3" value="Actual Transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-4" value="Org Wallet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-6" value="DLT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-7" value="Actual&lt;br&gt;Transaction&lt;br&gt;Signed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9u0tOdoa9083nMHy1FzU-9" target="9u0tOdoa9083nMHy1FzU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-9" value="Org Wallet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-10" value="DLT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9u0tOdoa9083nMHy1FzU-12" target="9u0tOdoa9083nMHy1FzU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-12" value="Indivisual Wallet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9u0tOdoa9083nMHy1FzU-13" target="9u0tOdoa9083nMHy1FzU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-13" value="Actual Transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9u0tOdoa9083nMHy1FzU-14" target="9u0tOdoa9083nMHy1FzU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-14" value="Actual&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Transaction&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Signed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9u0tOdoa9083nMHy1FzU-15" target="9u0tOdoa9083nMHy1FzU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-15" value="Relayer&lt;br&gt;Transaction&lt;br&gt;Signed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9u0tOdoa9083nMHy1FzU-16" target="9u0tOdoa9083nMHy1FzU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-16" value="Prepare&lt;br&gt;Meta Transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9u0tOdoa9083nMHy1FzU-25" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

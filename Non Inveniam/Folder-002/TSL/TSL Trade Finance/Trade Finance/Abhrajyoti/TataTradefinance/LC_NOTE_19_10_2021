@@ -1,0 +1,129 @@
+MT 770
+Sender => TSL_BIC
+
+Messege Type => 798 (For All)
+
+Receiver => BICFI
+
+Transaction reference number:
+:20: => Unique Blockchain number
+
+Sub-message type :
+:12:770 => Default for All (700,770,701)
+
+Proprietary message :
+:77E: =>  CrLf (Always Default this value)
+:27A: =>  This file No (1) / Logic Total No of files 
+:21A: =>  APPLNO 
+:21T: =>  FINDEST
+:21P: =>  (Not required in LC issuance)
+:21S: =>  (Not required in LC issuance)
+:25F: =>  Manual Entry by maker (Drop down for maker DRAFT,FINAL,GUID)
+:13E: =>  Approve time and date (YYYYMMDD HHMM)
+:24D: =>  METHOD_ISSUE
+:53C: =>  DEBIT_BANKN
+:71A: =>  BANK_CHARGES
+:73A: =>  (Not required in any of the LC)
+:25A: =>  (Not required in any of the LC)
+:71M: =>  CONFIRM_CHARGES
+:58a: =>  BEN_SWIFT (If value of the field is NA, then 58a will be removed from LC)
+:29T: =>  SHIP_MODE   // NEED FURTHER DISCUSS ON LOGIC
+:21E: =>  (Not required in any of the LC)
+:45C: =>  // NEED FURTHER DISCUSS ON LOGIC
+:29A: =>  CONTACT_DTLS \n PHNO \n EMAIL_ADRS
+:72Z: =>  // NEED FURTHER DISCUSS ON LOGIC
+:23X: =>  ATTACHMENT (Default FACT, Out work)
+:29S: =>  TSL_BIC
+:29P: =>  Not required
+:29U: =>  Not required
+
+=========================================================================================
+=========================================================================================
+MT 700
+Sender => TSL_BIC
+
+Messege Type => 798 (For All)
+
+Receiver => BICFI
+
+Transaction reference number:
+:20: => Unique Blockchain number
+
+Sub-message type :
+:12:700 => Default for All (700,770,701)
+
+Proprietary message :
+:77E: =>  CrLf (Always Default this value)
+:27A: =>  This file No (1) / Logic Total No of files 
+:21A: =>  APPLNO 
+:27:  =>  Logic of 700 and 701 . (File No / Total No of files including 700 and 701)
+:40A: =>  LCTYPE
+:20:  =>  Default value is "NONREF"
+:23:  =>  Not requied
+:31C: =>  Approve time and date (YYYYMMDD HHMM)
+:40E: =>  Maker manual input drop Down
+:31D: =>  LASTNEGDAT \n BENF_LANDX
+:51a: =>  Not required
+:50:  =>  NAME_APPLI \n ADDRESS_APPLI
+:59:  =>  BENF_NAME \n BENF_STRAS \n BENF_CITY \n BENF_LANDX
+:32B: =>  WAERK \n AMOUNT 
+:39A: =>  TOLERANCE // LOGIC NEED TO DISCUSS
+:39C: =>  Not requied
+:41a: =>  CREDIT_AVAIL \n NEG_SWIFT (If value of the field is NA, then default value will be `ANY BANK IN ${BENF_LANDX}`)
+:42C: =>  OPNUSANPRD (1. If 41a == "DEFAR PAYMENT" then this field is not requied
+                      2. If OPNUSANPRD is less than 10 then default value will be "SIGHT"
+                      3. If ZZAPPL_DATE then default `FIXED MATURITY ${ZZAPPL_DATE}`
+                      4. If OPNUSANPRD is greater than 10 then default value will be `${OPNUSANPRD} FROM BL DATE` )
+:42a: =>  BICFI
+:42M: =>  Not required
+:42P: =>  If 41a == "DEFAR PAYMENT" then call 42P value will be ZZAPPL_DATE, else Not requied
+:43P: =>  PART_SHIP 
+:43T: =>  TRANS_SHIP
+:44A: =>  Not requied
+:44E: =>  PORT_LOAD 
+:44F: =>  PORT_DSCHR
+:44B: =>  Not required
+:44C: =>  LASTD_SHIP
+:44D: =>  Not required
+:45A: =>  TDID_45A + "INCOTERM" + INCO1 + PORT_LOAD + PORT_DSCHR
+:46A: =>  We will call in 701
+:47A: =>  TDID_47A
+:49G: =>  Not required
+:49H: =>  Not required
+:71D: =>  TDID_71B
+:48:  =>  NEGDT // HARD CODED VALUE NEED TO ADDED, WILL DISCUSS IN FUTURE 
+:49:  =>  TOCONFIRM // LOGIC NEED UNDERSTAND
+:58a: =>  CONF_SWIFT
+:53a: =>  Not required
+:78:  =>  Not required
+:57a: =>  BEN_SWIFT
+:72Z: =>  Not required
+
+==============================================================================================
+==============================================================================================
+MT 701
+Sender => TSL_BIC
+
+Messege Type => 798 (For All)
+
+Receiver => BICFI
+
+Transaction reference number:
+:20: => Unique Blockchain number
+
+Sub-message type :
+:12:701 => Default for All (700,770,701)
+
+Proprietary message :
+:77E: =>  CrLf (Always Default this value)
+:27A: =>  This file No (1) / Logic Total No of files 
+:21A: =>  APPLNO 
+:27:  =>  Logic of 700 and 701 . (File No / Total No of files including 700 and 701)
+:20:  =>  Default value is "NONREF"
+:45A: =>  Not required
+:46A: =>  TDID_46A
+:47A: =>  Not required
+:49G: =>  Not required  
+:49H: =>  Not required
+
+770 > 700 > 701

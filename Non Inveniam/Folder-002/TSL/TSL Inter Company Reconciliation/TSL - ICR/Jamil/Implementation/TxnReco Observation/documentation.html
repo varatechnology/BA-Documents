@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Txn Reco - Documentation</title>
+    <style>
+        html{
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Txn Reco - Documentation</h1>
+    <div>Note: Remember that the common field to link the line-item is <span style="color:red;">Reference Number</span></div>
+    <div>Note: If <span style="color:red;">Reference Number</span> is not mathced, there is <u>possibility of matching</u> based on <u>docCheckDate and last4digit</u> of Referece Number</div>
+    <h3>Logics</h3>
+    <ul>
+        <li>
+            Mit
+            <ol>
+                <li>Those RV line-items which has no corresponding RE documents</li>
+            </ol>
+        </li>
+        <li>
+            last year items
+            <ol>
+                <li></li>
+            </ol>
+        </li>
+        <li>
+            short provision
+            <ol>
+                <li>Those RVs which is correcponds to a service account number (GL Code)</li>
+                <li>These RVs has no corresponding WE or RE in TSL side</li>
+                <li>Total Provition Required = sum( above RVs )</li>
+                <li>Total Provition Created = sum( PR ) + Sum(PE)</li>
+                <li>Short Provision = Total Provition Required - Total Provition created</li>
+            </ol>
+        </li>
+        <li>
+            Inv Diff
+            <ol>
+                <li>The difference between all RVs which has corresponding REs</li>
+            </ol>
+        </li>
+        <li>
+            Inv Diff GRIR
+            <ol>
+                <li>The difference between all RVs which has corresponding WEs</li>
+                <li>These WEs must not be squired off by REs</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>

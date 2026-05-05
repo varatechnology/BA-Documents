@@ -1,0 +1,9 @@
+1. Amount has to be upto 2 decimal points.
+2. New date column at dashboard table.
+3. Type value casting
+	a. DEBITAuth to A1
+	b. NNDO - A1 Bulk
+		- A2 Bulk
+4. Remove Id from DoucmentCard
+5. Change the Type information in all places mentioned above.
+6.

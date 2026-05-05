@@ -1,0 +1,49 @@
+Material in Transit:
+	1. From vendor side, Fetch all invoice raised (RV) which has no corresponding GRIR entry (WE) and invoice verification (RE) in 	customer side.
+	2. For each RV,
+		a. If the GL Code of RV belongs to Goods, then
+		b. RV.netAmount = RV.amtInLocalCurr - RV.gst + RV.withHoldTaxAmt
+	4. mit = sum(RV.netAmount)
+
+Short Provision:
+	1. From vendor side, Fetch all invoice raised (RV) which has no corresponding invoice verification (RE) in customer
+	2. For each RV,
+		a. If the GL Code of RV not belongs to Goods, then
+		b. RV.netAmount = RV.amtInLocalCurr - RV.gst + RV.withHoldTaxAmt
+	3. total_provision_required = sum(RV.netAmount)
+	4. Fetch all PR and PE,
+	5. total_PR = sum(PR)
+	6. total_PE = sum(PE)
+	7. total_open_provision = total_PR - total_PE
+	8. Short_provision = total_provision_required - total_open_provision
+	
+
+Inv Diff:
+	1. Fetch All RV and RE
+	2. For each RV, if there is invoice verified (RE) in TSL, then
+		a. totalRaised = sum(RV.netAmount) = sum(RV.amtInLocalCurr - RV.gst + RV.withHoldTaxAmt)
+		b. totalGRIR = sum(RE.netAmount) = sum(RE.amtInLocalCurr - RE.gst + RE.withHoldTaxAmt)
+	3. diff = abs( totalRaised - totalGRIR )
+	4. if diff > 200, then diff is accounted for invoice diff.
+
+
+Inv Diff GRIR: 
+	1. Fetch All WE, RV
+	2. Filter those RV with Respective WE and there is no RE raised
+	3. totalRaised = sum(RV.netAmount) = sum(RV.amtInLocalCurr - RV.gst + RV.withHoldTaxAmt)
+	4. totalGRIR = sum(WE.netAmount) = sum(WE.amtInLocalCurr - WE.gst + WE.withHoldTaxAmt)
+		Note: As gst and withHoldTaxAmt should be equal to zero (0) for WE, 
+			netAmount   = WE.amtInLocalCurr 
+				    = WE.amtInLocalCurr - WE.gst + WE.withHoldTaxAmt
+	5. tempTotalRaised = sum(RV.amtInLocalCurr)
+	6. tempTotalGRIR = sum(WE.amtInLocalCurr)
+	7. diff = abs( tempTotalRaised - tempTotalGRIR )
+	8. if diff > 200, then 
+		a. diff_net_amount = abs(totalRaised - totalGRIR) 
+		b. diff_net_amount is accounted for GRIR diff.
+		
+		
+		
+		
+		
+		

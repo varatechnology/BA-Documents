@@ -1,0 +1,130 @@
+CREATE TABLE `TBlicrEntityInfo` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrEntnm` TEXT,
+`blicrEntcd` TEXT,
+`blicrEntcur` TEXT,
+`blicrGrpentnm` TEXT,
+`blicrEnticp` TEXT,
+`blicrGrpcur` TEXT,
+`blicrRelation` TEXT,
+`blicrFromdt` TEXT,
+`blicrTodt` TEXT,
+`blicrHypcus3` TEXT
+);
+
+
+
+CREATE TABLE `TBlicrHypEntity` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrHypent` TEXT,
+`blicrTyp` TEXT,
+`blicrIcpbusa` TEXT,
+`blicrIcpnm` TEXT,
+`blicrRecogrp` TEXT,
+`blicrCompname` TEXT
+);
+
+
+CREATE TABLE `TBlicrLookupcoa` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrEntitynm` TEXT,
+`blicrGlcode` TEXT,
+`blicrGlname` TEXT,
+`blicrBshypacc` TEXT,
+`blicrBshypaccname` TEXT,
+`blicrBshypcus2` TEXT,
+`blicrBsform2` TEXT,
+`blicrBsexclude` TEXT,
+`blicrPlhypacc` TEXT,
+`blicrPlhypname` TEXT,
+`blicrPlhypcustom2` TEXT,
+`blicrPlform2` TEXT,
+`blicrPlexclude` TEXT,
+`blicrBsexcludeHyp` TEXT,
+`blicrPlexcludeHyp` TEXT
+);
+
+
+
+CREATE TABLE `TBlicrLookupCurExchange` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrTranstyp` TEXT,
+`blicrFromdt` TEXT,
+`blicrTodt` TEXT,
+`blicrQrtr` TEXT,
+`blicrCur` TEXT,
+`blicrCurconvert` TEXT,
+`blicrExrate` TEXT
+);
+
+
+
+CREATE TABLE `TBlicrLookupEntityReconset` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrCompanyName` TEXT,
+`blicrVendorcustomerCode` TEXT,
+`blicrNature` TEXT,
+`blicrReconSet` TEXT,
+`blicrReconEntities` TEXT
+);
+
+
+
+CREATE TABLE `TBlicrLookupEntitytranstype` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrEntityName` TEXT,
+`blicrCompanyCode` TEXT,
+`blicrAccount` TEXT,
+`blicrAccountDescription` TEXT,
+`blicrTransactionType` TEXT,
+`blicrNature` TEXT,
+`blicrReporting` TEXT
+);
+
+
+
+CREATE TABLE `TBlicrLookupEntityUniqueid` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrEntityName` TEXT,
+`blicrEntityUniqueId` TEXT
+);
+
+
+
+
+CREATE TABLE `TBlicrLookupHypSortkey` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrHypacc` TEXT,
+`blicrHypnm` TEXT,
+`blicrHypSortkey` TEXT
+);
+
+
+
+CREATE TABLE `TBlicrLookupsortkey` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrForm2Grp` TEXT,
+`blicrForm2Srtkey` TEXT
+);
+
+
+
+CREATE TABLE `TBlicrQuarter` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrFromdt` TEXT,
+`blicrTodt` TEXT,
+`blicrQrtr` TEXT,
+`blicrRptyr` TEXT,
+`blicrRptmon` TEXT,
+`blicrActive` TEXT
+);
+
+
+
+CREATE TABLE `TBlicrReconGroup` (
+`id` INTEGER PRIMARY KEY AUTOINCREMENT,
+`blicrRecogrp` TEXT,
+`blicrRelation` TEXT,
+`blicrFromdt` TEXT,
+`blicrTodt` TEXT
+);

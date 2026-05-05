@@ -1,0 +1,23 @@
+TSL Payable sum of RE = -228,544,993.93
+
+Purchases of Goods asper Form2(TSL-Pay) = 223,157,456
+
+
+-217,135,834.04
+
+
+diff between above 2 vals = -228,544,993.93 + 223,157,456 = −5387537.93
+
+
+
+
+TSL Payed sum of KZ = 233971302.35
+
+total Payed asper Form2(TSL-Pay) = -235,102,202
+
+diff between above 2 vals = 233971302.35 - 235,102,202 = −1130899.65
+
+
+
+-201,923,687.42
+
