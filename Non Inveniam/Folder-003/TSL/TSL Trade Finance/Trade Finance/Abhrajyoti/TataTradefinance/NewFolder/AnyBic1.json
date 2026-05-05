@@ -1,0 +1,81 @@
+{
+    "sequence": {
+    "element": [
+        {
+            "annotation": {
+                "documentation": [
+                    {
+                        "_source": "Name",
+                        "_xml:lang": "EN",
+                        "__prefix": "xs",
+                        "__text": "AnyBIC"
+                    },
+                    {
+                        "_source": "Definition",
+                        "_xml:lang": "EN",
+                        "__prefix": "xs",
+                        "__text": "Business identification code of the organisation."
+                    }
+                ],
+                "__prefix": "xs"
+            },
+            "_maxOccurs": "1",
+            "_minOccurs": "0",
+            "_name": "AnyBIC",
+            "_type": "AnyBICDec2014Identifier",
+            "__prefix": "xs"
+        },
+        {
+            "annotation": {
+                "documentation": [
+                    {
+                        "_source": "Name",
+                        "_xml:lang": "EN",
+                        "__prefix": "xs",
+                        "__text": "LEI"
+                    },
+                    {
+                        "_source": "Definition",
+                        "_xml:lang": "EN",
+                        "__prefix": "xs",
+                        "__text": "Legal entity identification as an alternate identification for a party."
+                    }
+                ],
+                "__prefix": "xs"
+            },
+            "_maxOccurs": "1",
+            "_minOccurs": "0",
+            "_name": "LEI",
+            "_type": "LEIIdentifier",
+            "__prefix": "xs"
+        },
+        {
+            "annotation": {
+                "documentation": [
+                    {
+                        "_source": "Name",
+                        "_xml:lang": "EN",
+                        "__prefix": "xs",
+                        "__text": "Other"
+                    },
+                    {
+                        "_source": "Definition",
+                        "_xml:lang": "EN",
+                        "__prefix": "xs",
+                        "__text": "Unique identification of an organisation, as assigned by an institution, using an identification scheme."
+                    }
+                ],
+                "__prefix": "xs"
+            },
+            "_maxOccurs": "unbounded",
+            "_minOccurs": "0",
+            "_name": "Othr",
+            "_type": "GenericOrganisationIdentification1",
+            "__prefix": "xs"
+        }
+    ],
+    "__prefix": "xs"
+    },
+"_name": "OrganisationIdentification29",
+				"__prefix": "xs"
+}

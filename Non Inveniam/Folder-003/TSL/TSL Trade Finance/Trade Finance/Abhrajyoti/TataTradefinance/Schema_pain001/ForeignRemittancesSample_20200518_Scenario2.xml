@@ -1,0 +1,228 @@
+<!--Sample Case 2 (One invoice - Advance Payment) Material Payment : Scroll Type - DPRQ (Down Payment Request) : Payment Term - 100 PCT Advance : Financing Option - NA : Scroll - 10180002947-->
+<AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.01">
+	<Fr>
+		<OrgId>
+			<Id>
+				<OrgId>
+					<AnyBIC>REILINBI</AnyBIC>
+				</OrgId>
+			</Id>
+		</OrgId>
+	</Fr>
+	<To>
+		<FIId>
+			<FinInstnId>
+				<BICFI>ICICINBI</BICFI>
+			</FinInstnId>
+		</FIId>
+	</To>
+	<BizMsgIdr>RNM202010060401983</BizMsgIdr>
+	<MsgDefIdr>pain.001.001.09</MsgDefIdr>
+	<!--Note the version of pain.001-->
+	<BizSvc>SWIFT IN A1_A2</BizSvc>
+	<!-- Business Service Identifier -->
+	<CreDt>2020-04-28T10:30:47Z</CreDt>
+</AppHdr>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.09">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>RNM202010060401983</MsgId>
+			<CreDtTm>2020-04-28T09:30:47</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<InitgPty>
+				<Nm>Reliance Industries Limited</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>REILINBI</AnyBIC>
+					</OrgId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>RNM202010060401983</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<PmtTpInf>
+				<InstrPrty>HIGH</InstrPrty>
+				<SvcLvl>
+					<Cd>URGP</Cd>
+				</SvcLvl>
+				<CtgyPurp>
+					<Cd>SUPP</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<ReqdExctnDt>
+				<Dt>2020-04-27</Dt>
+			</ReqdExctnDt>
+			<Dbtr>
+				<Nm>Reliance Industries Limited</Nm>
+				<PstlAdr>
+					<Ctry>IN</Ctry>
+					<AdrLine>3rd Floor, Maker Chambers IV</AdrLine>
+					<AdrLine>222, Nariman Point</AdrLine>
+					<AdrLine>Mumbai, 400021, Maharshtra, India</AdrLine>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<Othr>
+							<Id>AAACR5055K</Id>
+							<SchmeNm>
+								<Prtry>PAN</Prtry>
+							</SchmeNm>
+						</Othr>
+						<Othr>
+							<Id>L17110MH1973PLC019786</Id>
+							<SchmeNm>
+								<Prtry>CIN</Prtry>
+							</SchmeNm>
+						</Othr>
+						<Othr>
+							<Id>27AAACR5055K3Z5</Id>
+							<SchmeNm>
+								<Prtry>GSTN</Prtry>
+							</SchmeNm>
+						</Othr>
+					</OrgId>
+				</Id>
+				<CtctDtls>
+					<Nm>NAVEEN SWAMI</Nm>
+					<PhneNb>+91-22-79680088</PhneNb>
+					<EmailAdr>naveen.swami@ril.com</EmailAdr>
+				</CtctDtls>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>NONREF</Id>
+					</Othr>
+				</Id>
+				<Ccy>INR</Ccy>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>ICICINBB</BICFI>
+					<PstlAdr>
+						<Ctry>IN</Ctry>
+					</PstlAdr>
+				</FinInstnId>
+			</DbtrAgt>
+			<InstrForDbtrAgt>Refer PurpCdXchgRateInf under Supplementary Data for Account information, FACT/IBKL/RNM202010060401983/A1.PDF</InstrForDbtrAgt>
+			<ChrgsAcct>
+				<Id>
+					<Othr>
+						<Id>10220000123</Id>
+					</Othr>
+				</Id>
+			</ChrgsAcct>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>RNM202010060401983</InstrId>
+					<EndToEndId>RNM202010060401983</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="INR">0</InstdAmt>
+				</Amt>
+				<ChrgBr>CRED</ChrgBr>
+				<CdtrAgt>
+					<FinInstnId>
+						<BICFI>DEUTFRPPXXX</BICFI>
+						<Nm>DEUTSCHE BANK AG</Nm>
+						<PstlAdr>
+							<Ctry>FR</Ctry>
+						</PstlAdr>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm>SKII MECHATRONICS</Nm>
+					<PstlAdr>
+						<Ctry>FR</Ctry>
+						<AdrLine>2 RUE DES CHAMPS</AdrLine>
+						<AdrLine>ZI DE VERNON</AdrLine>
+						<AdrLine>27950 SAINT MARCEL</AdrLine>
+					</PstlAdr>
+					<CtctDtls>
+						<Nm>THOMAS GOUMON</Nm>
+						<PhneNb>+33-276485360</PhneNb>
+						<MobNb>+33-682329000</MobNb>
+						<EmailAdr>THOMAS.GOUMON@SKII.COM</EmailAdr>
+					</CtctDtls>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<!--<IBAN>FR7617789000011051111100092</IBAN>-->
+						<Othr>
+							<Id>10511111000</Id>
+						</Othr>
+					</Id>
+					<Ccy>EUR</Ccy>
+				</CdtrAcct>
+				<SplmtryData>
+					<PlcAndNm>CdtTrfTxInf</PlcAndNm>
+					<Envlp>
+						<Document xmlns="swift.india.supp.data">
+							<FrgnRmtDtls>
+								<FrgnRmtDtls>
+									<PurpOfRmtChc>AIMP</PurpOfRmtChc>
+									<!-- Purpose Of Remittance Choice; can be AIMP, PIMP, SERV -->
+									<AdvImptUdrtkgDtls>
+										<UdrtkgNb>SBLC123456</UdrtkgNb>
+										<UdrtkgIsseDt>2020-01-31</UdrtkgIsseDt>
+										<UdrtkgAmt Ccy="EUR">12000</UdrtkgAmt>
+									</AdvImptUdrtkgDtls>
+									<GoodsTp>RAWM</GoodsTp>
+									<AddtlInf>Test Additional Information</AddtlInf>
+									<!-- Narrative, delay reason, declaration etc. allowed. List of declaration codes are: FEMA, BOED, DELD, NNLD -->
+									<InvcDtls>
+										<InvcNb>PF8778R4</InvcNb>
+										<InvcDt>2020-02-27</InvcDt>
+										<InvcAmt Ccy="EUR">12000</InvcAmt>
+										<NetPyblAmt Ccy="EUR">12000</NetPyblAmt>
+										<PurchsOrdrDtls>
+											<PurchsOrdrRef>240251437</PurchsOrdrRef>
+											<PurchsOrdrDt>2020-02-10</PurchsOrdrDt>
+											<PurchsOrdrAmt Ccy="EUR">12000</PurchsOrdrAmt>
+										</PurchsOrdrDtls>
+										<GoodsAndOrSvcsDtls>
+											<GoodsAndOrSvcsDesc>PCB,DATA MANAGEMENT;PN:ELCART0049(8820CP)</GoodsAndOrSvcsDesc>
+											<GoodsAndOrSvcsDesc>POWER SUPPLY,DC/DC AL2-AL3-AL4</GoodsAndOrSvcsDesc>
+										</GoodsAndOrSvcsDtls>
+									</InvcDtls>
+									<DtldPmtInf>
+										<DbtrAcct>
+											<Id>
+												<Othr>
+													<Id>10220000123</Id>
+												</Othr>
+											</Id>
+										</DbtrAcct>
+										<PurpCd>S0102</PurpCd>
+										<PurpCdGrp>01</PurpCdGrp>
+										<AmtDtls>
+											<DbtAmtDtls>
+												<Amt Ccy="INR">998259.60</Amt>
+												<Ccy>EUR</Ccy>
+											</DbtAmtDtls>
+										</AmtDtls>
+										<XchgRateInf>
+											<UnitCcy>EUR</UnitCcy>
+											<XchgRate>83.1883</XchgRate>
+											<RateTp>AGRD</RateTp>
+										</XchgRateInf>
+									</DtldPmtInf>
+									<SummryInf>
+										<TtlRmtAmt Ccy="EUR">12000</TtlRmtAmt>
+										<RmtValDt>2020-04-29</RmtValDt>
+									</SummryInf>
+									<ChrgsAndTax>
+										<LclBkChrgs Ccy="INR">1000</LclBkChrgs>
+										<GstAmt Ccy="INR">1168.44</GstAmt>
+										<TtlAmt Ccy="INR">2168.44</TtlAmt>
+									</ChrgsAndTax>
+								</FrgnRmtDtls>
+							</FrgnRmtDtls>
+						</Document>
+					</Envlp>
+				</SplmtryData>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>

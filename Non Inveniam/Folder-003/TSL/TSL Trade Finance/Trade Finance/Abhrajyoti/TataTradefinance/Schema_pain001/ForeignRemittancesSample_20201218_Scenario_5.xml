@@ -1,0 +1,204 @@
+<!--Sample Case 5 (Sample for GTM - freight payment(10160086510 - 2020, letter ref - 18428)-->
+<AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.01">
+	<Fr>
+		<OrgId>
+			<Id>
+				<OrgId>
+					<AnyBIC>REILINBI</AnyBIC>
+				</OrgId>
+			</Id>
+		</OrgId>
+	</Fr>
+	<To>
+		<FIId>
+			<FinInstnId>
+				<BICFI>ICICINBI</BICFI>
+			</FinInstnId>
+		</FIId>
+	</To>
+	<BizMsgIdr>PET202010060498765</BizMsgIdr>
+	<MsgDefIdr>pain.001.001.09</MsgDefIdr>
+	<!--Note the version of pain.001-->
+	<BizSvc>SWIFT IN A1_A2</BizSvc>
+	<!-- Business Service Identifier -->
+	<CreDt>2020-09-04T10:30:47Z</CreDt>
+</AppHdr>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.09">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>PET202010060498765</MsgId>
+			<CreDtTm>2020-09-04T09:30:47</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<InitgPty>
+				<Nm>Reliance Industries Limited</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>REILINBI</AnyBIC>
+					</OrgId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>PET202010060498765</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<PmtTpInf>
+				<InstrPrty>HIGH</InstrPrty>
+				<SvcLvl>
+					<Cd>URGP</Cd>
+				</SvcLvl>
+			</PmtTpInf>
+			<ReqdExctnDt>
+				<Dt>2020-09-04</Dt>
+			</ReqdExctnDt>
+			<Dbtr>
+				<Nm>Reliance Industries Limited</Nm>
+				<PstlAdr>
+					<Ctry>IN</Ctry>
+					<AdrLine>3rd Floor, Maker Chambers IV</AdrLine>
+					<AdrLine>222, Nariman Point</AdrLine>
+					<AdrLine>Mumbai, 400021, Maharshtra, India</AdrLine>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<Othr>
+							<Id>AAACR5055K</Id>
+							<SchmeNm>
+								<Prtry>PAN</Prtry>
+							</SchmeNm>
+						</Othr>
+						<Othr>
+							<Id>L17110MH1973PLC019786</Id>
+							<SchmeNm>
+								<Prtry>CIN</Prtry>
+							</SchmeNm>
+						</Othr>
+						<Othr>
+							<Id>27AAACR5055K3Z5</Id>
+							<SchmeNm>
+								<Prtry>GSTN</Prtry>
+							</SchmeNm>
+						</Othr>
+					</OrgId>
+				</Id>
+				<CtctDtls>
+					<Nm>Swati Redkar</Nm>
+					<PhneNb>+91-22-79680088</PhneNb>
+					<EmailAdr>Swati.Redkar@ril.com</EmailAdr>
+				</CtctDtls>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>NONREF</Id>
+					</Othr>
+				</Id>
+				<Ccy>INR</Ccy>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>IDFBINBI</BICFI>
+					<PstlAdr>
+						<Ctry>IN</Ctry>
+					</PstlAdr>
+				</FinInstnId>
+			</DbtrAgt>
+			<InstrForDbtrAgt>FACT/IBKL/PET202010060498765/A1.PDF</InstrForDbtrAgt>
+			<ChrgsAcct>
+				<Id>
+					<Othr>
+						<Id>10220000123</Id>
+					</Othr>
+				</Id>
+			</ChrgsAcct>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>PET202010060498765</InstrId>
+					<EndToEndId>PET202010060498765</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="INR">0</InstdAmt>
+				</Amt>
+				<ChrgBr>DEBT</ChrgBr>
+				<CdtrAgt>
+					<FinInstnId>
+						<BICFI>COBADEFF230</BICFI>
+						<Nm>COMMERZBANK AG</Nm>
+						<PstlAdr>
+							<Ctry>DE</Ctry>
+						</PstlAdr>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm>OLDENDORFF CARRIERS GMBH and CO. KG</Nm>
+					<PstlAdr>
+						<Ctry>DE</Ctry>
+						<AdrLine>WILLY-BRANDT ALLEE 6</AdrLine>
+						<AdrLine>23554 LUBECK</AdrLine>
+						<AdrLine>GERMANY</AdrLine>
+					</PstlAdr>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<Othr>
+							<Id>025771701</Id>
+						</Othr>
+					</Id>
+					<Ccy>USD</Ccy>
+				</CdtrAcct>
+				<SplmtryData>
+					<PlcAndNm>CdtTrfTxInf</PlcAndNm>
+					<Envlp>
+						<Document xmlns="swift.india.supp.data">
+							<FrgnRmtDtls>
+								<FrgnRmtDtls>
+									<PurpOfRmtChc>SERV</PurpOfRmtChc>
+									<AddtlInf>/FEMA/</AddtlInf>
+									<InvcDtls>
+										<InvcNb>917055</InvcNb>
+										<InvcDt>2020-08-26</InvcDt>
+										<InvcAmt Ccy="USD">372724.39</InvcAmt>
+										<NetPyblAmt Ccy="USD">372724.39</NetPyblAmt>
+										<GoodsAndOrSvcsDtls>
+											<GoodsAndOrSvcsDesc>FREIGHT CHARGES</GoodsAndOrSvcsDesc>
+										</GoodsAndOrSvcsDtls>
+									</InvcDtls>
+									<DtldPmtInf>
+										<DbtrAcct>
+											<Id>
+												<Othr>
+													<Id>00000010000000017</Id>
+												</Othr>
+											</Id>
+										</DbtrAcct>
+										<PurpCd>S1099</PurpCd>
+										<AmtDtls>
+											<DbtAmtDtls>
+												<Amt Ccy="INR">27209439.56</Amt>
+												<Ccy>USD</Ccy>
+											</DbtAmtDtls>
+										</AmtDtls>
+										<XchgRateInf>
+											<UnitCcy>USD</UnitCcy>
+											<XchgRate>73.0015</XchgRate>
+											<RateTp>AGRD</RateTp>
+											<CtrctId>0000001452659</CtrctId>
+										</XchgRateInf>
+									</DtldPmtInf>
+									<SummryInf>
+										<TtlRmtAmt Ccy="USD">372724.39</TtlRmtAmt>
+										<RmtValDt>2020-09-04</RmtValDt>
+									</SummryInf>
+									<ChrgsAndTax>
+										<LclBkChrgs Ccy="INR">1000</LclBkChrgs>
+										<GstAmt Ccy="INR">5887.7</GstAmt>
+										<TtlAmt Ccy="INR">6887.7</TtlAmt>
+									</ChrgsAndTax>
+								</FrgnRmtDtls>
+							</FrgnRmtDtls>
+						</Document>
+					</Envlp>
+				</SplmtryData>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>

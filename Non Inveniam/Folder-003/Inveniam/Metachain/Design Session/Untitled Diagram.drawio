@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="Tvkt5GSzw8qltWx7jWkW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tSnXORBmBqaV8DgZON29-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="410" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-1" value="All MS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-2" value="Metachain MS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-3" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-4" value="Publish Events" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.125;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-1" target="tSnXORBmBqaV8DgZON29-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-5" value="Receive the events" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.813;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-2" target="tSnXORBmBqaV8DgZON29-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-6" target="tSnXORBmBqaV8DgZON29-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-6" value="Postgres" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="395" y="420" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-7" value="Events are pushed&lt;div&gt;with Status Pending&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-2" target="tSnXORBmBqaV8DgZON29-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-8" target="tSnXORBmBqaV8DgZON29-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-8" value="Fetch Pending Events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-9" target="tSnXORBmBqaV8DgZON29-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-9" value="Create Batch of Events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-10" target="tSnXORBmBqaV8DgZON29-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-10" value="Create blockchain Reference&lt;div&gt;(Accumulate / ImmuDB)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-11" target="tSnXORBmBqaV8DgZON29-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-11" value="Update the transaction status&lt;br&gt;Completed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-11" target="tSnXORBmBqaV8DgZON29-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-17" value="Deal Logs" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-20" value="Batch Processing&lt;div&gt;(Blockchain Reference Creation)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-21" target="tSnXORBmBqaV8DgZON29-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-21" value="Event Received By Metachain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-22" target="tSnXORBmBqaV8DgZON29-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-22" value="Event Checksum will calculated and stored" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-24" target="tSnXORBmBqaV8DgZON29-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-24" value="Metachain Reference will be created in ImmuDB" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-27" target="tSnXORBmBqaV8DgZON29-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-27" target="tSnXORBmBqaV8DgZON29-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-27" value="Received Transaction will be saved as Pending for Batch Processor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-30" target="tSnXORBmBqaV8DgZON29-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-42" value="Update the Blockchain Reference&lt;div&gt;for Deal Logs&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-30" target="tSnXORBmBqaV8DgZON29-40">
+          <mxGeometry x="0.5652" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-30" value="Batch Processing will do the Blockchain Reference Creation" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-36" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-34" target="tSnXORBmBqaV8DgZON29-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-34" value="Success" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-38" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-40" value="Deal Logs will be created" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tSnXORBmBqaV8DgZON29-43" target="tSnXORBmBqaV8DgZON29-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tSnXORBmBqaV8DgZON29-43" value="Start" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

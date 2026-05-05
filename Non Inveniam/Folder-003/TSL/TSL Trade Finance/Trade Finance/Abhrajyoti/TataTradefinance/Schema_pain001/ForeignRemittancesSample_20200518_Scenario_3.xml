@@ -1,0 +1,279 @@
+<!--Sample Case 3 (Two invoice - post shipment) Material Payment : Scroll Type - IMPM (Import-Material) : Payment Term - CAD (intimation details- Direct SIGHT) : Financing Option - NA : Scroll - 10160002711 & 10160002764-->
+<AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.01">
+	<Fr>
+		<OrgId>
+			<Id>
+				<OrgId>
+					<AnyBIC>REILINBI</AnyBIC>
+				</OrgId>
+			</Id>
+		</OrgId>
+	</Fr>
+	<To>
+		<FIId>
+			<FinInstnId>
+				<BICFI>ICICINBI</BICFI>
+			</FinInstnId>
+		</FIId>
+	</To>
+	<BizMsgIdr>PET202010060412345</BizMsgIdr>
+	<MsgDefIdr>pain.001.001.09</MsgDefIdr>
+	<!--Note the version of pain.001-->
+	<BizSvc>SWIFT IN A1_A2</BizSvc>
+	<!-- Business Service Identifier -->
+	<CreDt>2020-04-28T10:30:47Z</CreDt>
+</AppHdr>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.09">
+	<CstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>PET202010060412345</MsgId>
+			<CreDtTm>2020-04-28T09:30:47</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<InitgPty>
+				<Nm>Reliance Industries Limited</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>REILINBI</AnyBIC>
+					</OrgId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>PET202010060412345</PmtInfId>
+			<PmtMtd>TRF</PmtMtd> // HARD CODED
+			<PmtTpInf>
+				<InstrPrty>HIGH</InstrPrty>
+				<SvcLvl>
+					<Cd>URGP</Cd>
+				</SvcLvl>
+				<CtgyPurp>
+					<Cd>SUPP</Cd>
+				</CtgyPurp>
+			</PmtTpInf>
+			<ReqdExctnDt>
+				<Dt>2020-04-27</Dt>
+			</ReqdExctnDt>
+			<Dbtr>
+				<Nm>Reliance Industries Limited</Nm>
+				<PstlAdr>
+					<Ctry>IN</Ctry>
+					<AdrLine>3rd Floor, Maker Chambers IV</AdrLine>
+					<AdrLine>222, Nariman Point</AdrLine>
+					<AdrLine>Mumbai, 400021, Maharshtra, India</AdrLine>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<Othr>
+							<Id>AAACR5055K</Id>
+							<SchmeNm>
+								<Prtry>PAN</Prtry>
+							</SchmeNm>
+						</Othr>
+						<Othr>
+							<Id>L17110MH1973PLC019786</Id>
+							<SchmeNm>
+								<Prtry>CIN</Prtry>
+							</SchmeNm>
+						</Othr>
+						<Othr>
+							<Id>27AAACR5055K3Z5</Id>
+							<SchmeNm>
+								<Prtry>GSTN</Prtry>
+							</SchmeNm>
+						</Othr>
+					</OrgId>
+				</Id>
+				<CtctDtls>
+					<Nm>NAVEEN SWAMI</Nm>
+					<PhneNb>+91-22-79680088</PhneNb>
+					<EmailAdr>naveen.swami@ril.com</EmailAdr>
+				</CtctDtls>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<Othr>
+						<Id>NONREF</Id>
+					</Othr>
+				</Id>
+				<Ccy>INR</Ccy>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>ICICINBB</BICFI>
+					<PstlAdr>
+						<Ctry>IN</Ctry>
+					</PstlAdr>
+				</FinInstnId>
+			</DbtrAgt>
+			<InstrForDbtrAgt>Refer PurpCdXchgRateInf under Supplementary Data for Account information, FACT/IBKL/PET202010060412345/A1.PDF</InstrForDbtrAgt>
+			<ChrgsAcct>
+				<Id>
+					<Othr>
+						<Id>10220000123</Id>
+					</Othr>
+				</Id>
+			</ChrgsAcct>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>PET202010060412345</InstrId>
+					<EndToEndId>PET202010060412345</EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="INR">0</InstdAmt>
+				</Amt>
+				<ChrgBr>CRED</ChrgBr>
+				<CdtrAgt>
+					<FinInstnId>
+						<BICFI>HXBKCNBJ090</BICFI>
+						<Nm>HUA XIA BANK</Nm>
+						<PstlAdr>
+							<Ctry>CN</Ctry>
+						</PstlAdr>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm>LODHA RELIANCE CHEMICALS CO., LTD.</Nm>
+					<PstlAdr>
+						<Ctry>CN</Ctry>
+						<AdrLine>ROOM 1309, NO.11 ZHENXING STREET</AdrLine>
+						<AdrLine>NATIONAL HI-TECH INDL DEVELOPMENT ZONE OF TAIYUAN</AdrLine>
+						<AdrLine>SHANXI</AdrLine>
+					</PstlAdr>
+					<CtctDtls>
+						<Nm>DHARMESH SHAH</Nm>
+						<PhneNb>+86-8281246</PhneNb>
+						<MobNb>+91-9825119165</MobNb>
+						<EmailAdr>INFO@LODHALABORATORYCHEMICAL.NET</EmailAdr>
+					</CtctDtls>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<Othr>
+							<Id>4930200001801600000000</Id>
+						</Othr>
+					</Id>
+					<Ccy>USD</Ccy>
+				</CdtrAcct>
+				<SplmtryData>
+					<PlcAndNm>CdtTrfTxInf</PlcAndNm>
+					<Envlp>
+						<Document xmlns="swift.india.supp.data">
+							<FrgnRmtDtls>
+								<FrgnRmtDtls>
+									<PurpOfRmtChc>PIMP</PurpOfRmtChc>
+									<PstShipmntDtlsChc1>
+										<PstShipmntDtls1>
+											<BllOfNtryNb>7394798</BllOfNtryNb>
+											<BllOfNtryDt>2020-04-04</BllOfNtryDt>
+											<PortCd>INNSA1</PortCd>
+											<AuthrsdDealrCd>650011</AuthrsdDealrCd>
+											<ImptExptCd>0388066415</ImptExptCd>
+											<ShipmntDt>2020-03-15</ShipmntDt>
+											<CtryOfOrgn>CN</CtryOfOrgn>
+											<PortOfLoadng>XINGANG PORT, TIANJING CHINA</PortOfLoadng>
+										</PstShipmntDtls1>
+									</PstShipmntDtlsChc1>
+									<PstShipmntDtlsChc1>
+										<PstShipmntDtls1>
+											<BllOfNtryNb>7395124</BllOfNtryNb>
+											<BllOfNtryDt>2020-04-04</BllOfNtryDt>
+											<PortCd>INNSA1</PortCd>
+											<AuthrsdDealrCd>650011</AuthrsdDealrCd>
+											<ImptExptCd>0388066415</ImptExptCd>
+											<ShipmntDt>2020-03-15</ShipmntDt>
+											<CtryOfOrgn>CN</CtryOfOrgn>
+											<PortOfLoadng>XINGANG PORT, TIANJING CHINA</PortOfLoadng>
+										</PstShipmntDtls1>
+									</PstShipmntDtlsChc1>
+									<GoodsTp>RAWM</GoodsTp>
+									<AddtlInf>Test Additional Information</AddtlInf>
+									<InvcDtls>
+										<InvcNb>2020-CA25073</InvcNb>
+										<InvcDt>2020-03-13</InvcDt>
+										<InvcAmt Ccy="USD">41580.00</InvcAmt>
+										<NetPyblAmt Ccy="USD">41580.00</NetPyblAmt>
+										<PurchsOrdrDtls>
+											<PurchsOrdrRef>290505807</PurchsOrdrRef>
+											<PurchsOrdrDt>2019-12-18</PurchsOrdrDt>
+											<PurchsOrdrAmt Ccy="USD">252000</PurchsOrdrAmt>
+										</PurchsOrdrDtls>
+										<GoodsAndOrSvcsDtls>
+											<GoodsAndOrSvcsDesc>CHEM OXALICACID</GoodsAndOrSvcsDesc>
+										</GoodsAndOrSvcsDtls>
+									</InvcDtls>
+									<InvcDtls>
+										<InvcNb>2020-CA25070</InvcNb>
+										<InvcDt>2020-03-12</InvcDt>
+										<InvcAmt Ccy="USD">10395.00</InvcAmt>
+										<NetPyblAmt Ccy="USD">10395.00</NetPyblAmt>
+										<PurchsOrdrDtls>
+											<PurchsOrdrRef>290505807</PurchsOrdrRef>
+											<PurchsOrdrDt>2019-12-18</PurchsOrdrDt>
+											<PurchsOrdrAmt Ccy="USD">252000</PurchsOrdrAmt>
+										</PurchsOrdrDtls>
+										<GoodsAndOrSvcsDtls>
+											<GoodsAndOrSvcsDesc>CHEM OXALICACID</GoodsAndOrSvcsDesc>
+										</GoodsAndOrSvcsDtls>
+									</InvcDtls>
+									<DtldPmtInf>
+										<DbtrAcct>
+											<Id>
+												<Othr>
+													<Id>10220000123</Id>
+												</Othr>
+											</Id>
+										</DbtrAcct>
+										<PurpCd>S0102</PurpCd>
+										<PurpCdGrp>01</PurpCdGrp>
+										<AmtDtls>
+											<DbtAmtDtls>
+												<Amt Ccy="INR">3174633.00</Amt>
+												<Ccy>USD</Ccy>
+											</DbtAmtDtls>
+										</AmtDtls>
+										<XchgRateInf>
+											<UnitCcy>USD</UnitCcy>
+											<XchgRate>76.1015</XchgRate>
+											<RateTp>AGRD</RateTp>
+										</XchgRateInf>
+									</DtldPmtInf>
+									<DtldPmtInf>
+										<DbtrAcct>
+											<Id>
+												<Othr>
+													<Id>10220000123</Id>
+												</Othr>
+											</Id>
+										</DbtrAcct>
+										<PurpCd>S0102</PurpCd>
+										<PurpCdGrp>01</PurpCdGrp>
+										<AmtDtls>
+											<DbtAmtDtls>
+												<Amt Ccy="INR">793658.25</Amt>
+												<Ccy>USD</Ccy>
+											</DbtAmtDtls>
+										</AmtDtls>
+										<XchgRateInf>
+											<UnitCcy>USD</UnitCcy>
+											<XchgRate>76.1015</XchgRate>
+											<RateTp>AGRD</RateTp>
+										</XchgRateInf>
+									</DtldPmtInf>
+									<SummryInf>
+										<TtlRmtAmt Ccy="USD">51975</TtlRmtAmt>
+										<RmtValDt>2020-04-30</RmtValDt>
+									</SummryInf>
+									<ChrgsAndTax>
+										<LclBkChrgs Ccy="INR">1000</LclBkChrgs>
+										<GstAmt Ccy="INR">1701.97</GstAmt>
+										<TtlAmt Ccy="INR">2701.97</TtlAmt>
+									</ChrgsAndTax>
+								</FrgnRmtDtls>
+							</FrgnRmtDtls>
+						</Document>
+					</Envlp>
+				</SplmtryData>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>
